@@ -1,0 +1,151 @@
+<graphml>
+	<key id="label" for="all" attr.name="label" attr.type="string"/>
+	<key id="class" for="all" attr.name="class" attr.type="string"/>
+	<key id="uri" for="all" attr.name="uri" attr.type="string"/>
+	<key id="startnode" for="all" attr.name="startnode" attr.type="string"/>
+	<key id="evidence" for="all" attr.name="evidence" attr.type="string"/>
+	<key id="weight" for="all" attr.name="weight" attr.type="double"/>
+	<key id="childnodes" for="all" attr.name="childnodes" attr.type="string"/>
+	<key id="nodesize" for="all" attr.name="nodesize" attr.type="double"/>
+	<graph edgedefault="undirected">
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/HBA1">
+		<data key="label">HBA1</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CCND3">
+		<data key="label">CCND3</data>
+		<data key="class">gene</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa04080">
+		<data key="label">hsa04080</data>
+		<data key="class">kegg_pathway</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4829">
+		<data key="label">4829</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/hprd/resource/tissue/Red_blood_cell">
+		<data key="label">Red_blood_cell</data>
+		<data key="class">tissue</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35526">
+		<data key="label">CHEBI:35526</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0000307">
+		<data key="label">GO:0000307</data>
+		<data key="class">GO</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CDK2">
+		<data key="label">CDK2</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5591">
+		<data key="label">5591</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CKM">
+		<data key="label">CKM</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/ADIPOR1">
+		<data key="childnodes">http://chem2bio2rdf.org/uniprot/resource/gene/CYP3A5	http://chem2bio2rdf.org/uniprot/resource/gene/NR4A3</data>
+		<data key="label">ADIPOR1(2)</data>
+		<data key="class">gene</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4829" target="http://chem2bio2rdf.org/uniprot/resource/gene/ADIPOR1">
+		<data key="weight">0.0379197632852</data>
+		<data key="label">expression</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/expression</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/hprd/resource/tissue/Red_blood_cell" target="http://chem2bio2rdf.org/uniprot/resource/gene/CCND3">
+		<data key="weight">0.0252571879251</data>
+		<data key="label">tissue</data>
+		<data key="uri">http://chem2bio2rdf.org/hprd/resource/tissue</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0000307" target="http://chem2bio2rdf.org/uniprot/resource/gene/CCND3">
+		<data key="weight">0.0363838207327</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/HBA1" target="http://chem2bio2rdf.org/hprd/resource/tissue/Red_blood_cell">
+		<data key="weight">0.0252571879251</data>
+		<data key="label">tissue</data>
+		<data key="uri">http://chem2bio2rdf.org/hprd/resource/tissue</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ADIPOR1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5591">
+		<data key="weight">0.0379197632852</data>
+		<data key="label">expression</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/expression</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5591" target="http://chem2bio2rdf.org/uniprot/resource/gene/CCND3">
+		<data key="weight">0.0140584040058</data>
+		<data key="label">expression</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/expression</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4829" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35526">
+		<data key="weight">0.0140584040058</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4829" target="http://chem2bio2rdf.org/uniprot/resource/gene/CKM">
+		<data key="weight">0.0447869034515</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/4829:CKM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4829" target="http://chem2bio2rdf.org/uniprot/resource/gene/HBA1">
+		<data key="weight">0.0252571879251</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/4829:HBA1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CKM" target="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa04080">
+		<data key="weight">0.0447869034515</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CDK2" target="http://bio2rdf.org/GO/GO:0000307">
+		<data key="weight">0.0363838207327</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa04080" target="http://chem2bio2rdf.org/uniprot/resource/gene/CCND3">
+		<data key="weight">0.0447869034515</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4829" target="http://chem2bio2rdf.org/uniprot/resource/gene/CDK2">
+		<data key="weight">0.0363838207327</data>
+		<data key="label">expression</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/expression</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35526" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5591">
+		<data key="weight">0.0140584040058</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	</graph>
+</graphml>

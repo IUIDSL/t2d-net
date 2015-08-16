@@ -1,0 +1,549 @@
+<graphml>
+	<key id="label" for="all" attr.name="label" attr.type="string"/>
+	<key id="class" for="all" attr.name="class" attr.type="string"/>
+	<key id="uri" for="all" attr.name="uri" attr.type="string"/>
+	<key id="startnode" for="all" attr.name="startnode" attr.type="string"/>
+	<key id="evidence" for="all" attr.name="evidence" attr.type="string"/>
+	<key id="weight" for="all" attr.name="weight" attr.type="double"/>
+	<key id="childnodes" for="all" attr.name="childnodes" attr.type="string"/>
+	<key id="nodesize" for="all" attr.name="nodesize" attr.type="double"/>
+	<graph edgedefault="undirected">
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10294289">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2519	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11424804	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/21717337	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/42637062	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44341461	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/443389	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44341278	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46222048	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46879596	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24890872	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/42637282	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11322177	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44443101	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44341256	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/21717336	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4908	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11817019	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46882458	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10108128	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11368215	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/25212178	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16719554	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/42637065	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/42638063	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11458616	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10454092	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11172276	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/515047	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44425701	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44341428	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11275964	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/42637431	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10025406	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/25034431	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11689242	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44341234	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11322127	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10045603	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/697226	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11771234	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44341439	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9833312	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46879551	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46879550	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10154555	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44341241	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11321889	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10173403	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6918647	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46879490	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9864291	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/23657438	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/45263405	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44341260	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/515051	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24803184	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/42637355	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/42637357	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11148656	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46880206	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44443098	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/22239024	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24824080	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24890348	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24802842</data>
+		<data key="label">10294289(65)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224691">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224693	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24990122	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224699	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46882876	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224692	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46882874	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10284289	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46883510	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44425719	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/45102707	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/45102708	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24990485	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/23647887	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/23647888	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224653	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46879597	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16223655	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3008866	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11247557	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44340870	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10268255	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224678	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44583287	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16661548	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224670	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/25093241	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44581241	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224677	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44581242	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/23647884	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24890346	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24890344	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44457199	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24824494	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224687	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224685	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224680	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224688	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16727123	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44431775	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/491206	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44433789	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15955613	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46882461	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44583355	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44583356	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44570275	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/1367	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11993870	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44320276	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16223851	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224657	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44403300	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46879643	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44578956	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224706	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224672	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24990839	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224702	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44440493	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10305705	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224669	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224668	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/25270849	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44320251	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44320252	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9797385	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/23647890	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24961687	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16661701	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224649	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10002960	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46882949	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10146899	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224705	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10049358	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224664	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5495793	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16043268	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/42643591	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6437306	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224644	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10190506	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/25207352	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11516139	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44320238</data>
+		<data key="label">46224691(86)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2">
+		<data key="label">CYP1A2</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2166">
+		<data key="label">2166</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2165">
+		<data key="label">2165</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16040587">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46231312	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/193042	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44466345	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46879552	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/442879	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46882521	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46879428	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/45267621</data>
+		<data key="label">16040587(8)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11430331">
+		<data key="label">11430331</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/122068">
+		<data key="label">122068</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9820134">
+		<data key="label">9820134</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10316203">
+		<data key="label">10316203</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11195292">
+		<data key="label">11195292</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0070330">
+		<data key="childnodes">http://bio2rdf.org/GO/GO:0017144</data>
+		<data key="label">GO:0070330(1)</data>
+		<data key="class">GO</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24871527">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2733526	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/42626024</data>
+		<data key="label">24871527(2)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="label">CYP2D6</data>
+		<data key="class">gene</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5505">
+		<data key="label">5505</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16099905">
+		<data key="label">16099905</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0070989">
+		<data key="label">GO:0070989</data>
+		<data key="class">GO</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0016098">
+		<data key="label">GO:0016098</data>
+		<data key="class">GO</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11450263">
+		<data key="label">11450263</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/443390">
+		<data key="label">443390</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9">
+		<data key="label">CYP2C9</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CYP3A4">
+		<data key="label">CYP3A4</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/25212177">
+		<data key="label">25212177</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0042737">
+		<data key="label">GO:0042737</data>
+		<data key="class">GO</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0009820">
+		<data key="childnodes">http://bio2rdf.org/GO/GO:0046483</data>
+		<data key="label">GO:0009820(1)</data>
+		<data key="class">GO</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0009822">
+		<data key="label">GO:0009822</data>
+		<data key="class">GO</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16745311">
+		<data key="label">16745311</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8">
+		<data key="label">CYP2C8</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/25212177">
+		<data key="weight">0.0023129912906</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/25212177:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11450263">
+		<data key="weight">0.0011340100027</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/11450263:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11195292">
+		<data key="weight">0.0023129912906</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/11195292:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16099905">
+		<data key="weight">0.00813622946188</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/16099905:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5505" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP3A4">
+		<data key="weight">0.034323618943</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5505:CYP3A4</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/122068">
+		<data key="weight">0.00389848367841</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/122068:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2165">
+		<data key="weight">0.0107229924007</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/2165:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11430331">
+		<data key="weight">0.0023129912906</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/11430331:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP3A4" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16040587">
+		<data key="weight">0.0446293701149</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/16040587:CYP3A4</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0042737" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.0181658817153</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://bio2rdf.org/GO/GO:0070989">
+		<data key="weight">0.00693955119351</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11450263" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">9.0213591506e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/11450263:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2166">
+		<data key="weight">2.37979763916e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/2166:CYP2C8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/443390" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.0023129912906</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/443390:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10294289">
+		<data key="weight">0.00813622946188</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/10294289:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2166" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">2.37979763916e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/2166:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://bio2rdf.org/GO/GO:0016098">
+		<data key="weight">0.0181658817153</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/25212177" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.0023129912906</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/25212177:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9820134" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">9.0213591506e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/9820134:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP3A4" target="http://bio2rdf.org/GO/GO:0009822">
+		<data key="weight">0.034323618943</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0070989" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.00693955119351</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0009822" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.034323618943</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://bio2rdf.org/GO/GO:0009820">
+		<data key="weight">0.00288497094172</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10294289" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.00813622946188</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/10294289:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16745311">
+		<data key="weight">0.00813622946188</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/16745311:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9" target="http://bio2rdf.org/GO/GO:0042737">
+		<data key="weight">0.0384217112862</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9820134">
+		<data key="weight">0.0011340100027</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/9820134:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5505" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9">
+		<data key="weight">0.0101256566428</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5505:CYP2C9</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16745311">
+		<data key="weight">0.000137440918855</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/16745311:CYP2C8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16745311" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.000137440918855</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/16745311:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11430331">
+		<data key="weight">0.0367501147315</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/11430331:CYP2C9</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://bio2rdf.org/GO/GO:0070989">
+		<data key="weight">0.0472934646072</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224691" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.0221937420668</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/46224691:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/122068" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">4.89213952611e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/122068:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2166">
+		<data key="weight">0.0023129912906</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/2166:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11195292" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.0023129912906</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/11195292:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/46224691">
+		<data key="weight">0.0221937420668</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/46224691:CYP2C9</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://bio2rdf.org/GO/GO:0042737">
+		<data key="weight">0.0181658817153</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24871527">
+		<data key="weight">0.000203747305401</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/24871527:CYP2C8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16099905">
+		<data key="weight">0.000137440918855</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/16099905:CYP2C8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10316203">
+		<data key="weight">4.89213952611e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/10316203:CYP2C8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/443390">
+		<data key="weight">0.0023129912906</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/443390:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/443390">
+		<data key="weight">0.0367501147315</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/443390:CYP2C9</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5505" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2">
+		<data key="weight">0.000384200680979</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5505:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16099905" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.000137440918855</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/16099905:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9" target="http://bio2rdf.org/GO/GO:0016098">
+		<data key="weight">0.0384217112862</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2165" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.000203747305401</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/2165:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/25212177">
+		<data key="weight">0.0367501147315</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/25212177:CYP2C9</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10316203">
+		<data key="weight">0.00389848367841</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/10316203:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11430331" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.0023129912906</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/11430331:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11195292">
+		<data key="weight">0.0367501147315</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/11195292:CYP2C9</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0070330" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.0206772261366</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5505" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8">
+		<data key="weight">9.0213591506e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5505:CYP2C8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10316203" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">4.89213952611e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/10316203:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://bio2rdf.org/GO/GO:0070330">
+		<data key="weight">0.0206772261366</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16040587" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.0446293701149</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/16040587:CYP2D6</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0016098" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.0181658817153</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0009820" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.00288497094172</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2165">
+		<data key="weight">0.000203747305401</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/2165:CYP2C8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/24871527" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2D6">
+		<data key="weight">0.000203747305401</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/24871527:CYP2D6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9820134">
+		<data key="weight">9.0213591506e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/9820134:CYP2C8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/122068">
+		<data key="weight">4.89213952611e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/122068:CYP2C8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11450263">
+		<data key="weight">9.0213591506e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/11450263:CYP2C8</data>
+	</edge>
+	</graph>
+</graphml>

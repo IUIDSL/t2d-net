@@ -1,0 +1,144 @@
+<graphml>
+	<key id="label" for="all" attr.name="label" attr.type="string"/>
+	<key id="class" for="all" attr.name="class" attr.type="string"/>
+	<key id="uri" for="all" attr.name="uri" attr.type="string"/>
+	<key id="startnode" for="all" attr.name="startnode" attr.type="string"/>
+	<key id="evidence" for="all" attr.name="evidence" attr.type="string"/>
+	<key id="weight" for="all" attr.name="weight" attr.type="double"/>
+	<key id="childnodes" for="all" attr.name="childnodes" attr.type="string"/>
+	<key id="nodesize" for="all" attr.name="nodesize" attr.type="double"/>
+	<graph edgedefault="undirected">
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CFTR">
+		<data key="label">CFTR</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6167">
+		<data key="label">6167</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6603881">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/1150344	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604598	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/398788	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3246111	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5391151	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247186	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3235156	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604725	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604451	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771783	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604452	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771786	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/185838	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/62824	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2735313	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247107	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3234548	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6540914	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/210230	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247139	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/676035	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604902	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3932	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604309	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/319187	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604421	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/245251	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/221012	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/60602	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/19790	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6603986	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604394	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604016	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3246339	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6603826	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604794	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604866	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6564523	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247366	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604625	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3235175	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/124049	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/100633	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/442247	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771800	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604092	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247292	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247291	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3234407	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247211	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/157702	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/157704	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6603948	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4564402	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3467590	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6603728	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3233257	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3235451	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604734	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604735	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5322064	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771792	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3235515	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771799	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/322968	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3233890	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3234412	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3423	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/250569	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6603918	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604881	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/7329	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/101612	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604608	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4788	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6603770	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247303	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604687	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3232722	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3234061	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604688	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6419892	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3233607	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3235190	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9595233	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/676309	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/676307	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/122070	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/275196	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247271	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771830	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771838	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3235436	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604695	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3085218	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604753	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/31411	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3246275	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3234475	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247283	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247320	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604933	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3246032	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4552	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3246542	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3246543	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224978	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247089	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604820	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/656767	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247085	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771842	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771843	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/1126532	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/389769	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3233351	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5361192	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604385	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/47528	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/161930	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/157132	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3233456	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247151	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/128618	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/107896	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604668	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604771	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247098	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771593	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/1795902	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771846	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604781	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3233859	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3233526	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3247319	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3232738	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5771844	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604378	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/409027	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3233750	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6604176	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9595227	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/16677983	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/476416</data>
+		<data key="label">6603881(144)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC3">
+		<data key="label">ABCC3</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3293">
+		<data key="label">3293</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC1">
+		<data key="label">ABCC1</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488">
+		<data key="label">3488</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9">
+		<data key="label">CYP2C9</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/GAS6">
+		<data key="label">GAS6</data>
+		<data key="class">gene</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/47936">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5280961</data>
+		<data key="label">47936(1)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6603881" target="http://chem2bio2rdf.org/uniprot/resource/gene/GAS6">
+		<data key="weight">0.0333129776301</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6603881:GAS6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/47936" target="http://chem2bio2rdf.org/uniprot/resource/gene/GAS6">
+		<data key="weight">0.0478725776791</data>
+		<data key="label">expression</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/expression</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC3" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3293">
+		<data key="weight">0.0132857839023</data>
+		<data key="label">expression</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/expression</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6603881">
+		<data key="weight">0.0333129776301</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6603881:CYP2C9</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CFTR" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/47936">
+		<data key="weight">0.0478725776791</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/47936:CFTR</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6167">
+		<data key="weight">0.0254354846288</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6167:ABCC1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3293" target="http://chem2bio2rdf.org/uniprot/resource/gene/GAS6">
+		<data key="weight">0.0132857839023</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3293:GAS6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6167" target="http://chem2bio2rdf.org/uniprot/resource/gene/GAS6">
+		<data key="weight">0.0254354846288</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6167:GAS6</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488" target="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC3">
+		<data key="weight">0.0132857839023</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3488:ABCC3</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP2C9">
+		<data key="weight">0.0159590557748</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3488:CYP2C9</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488" target="http://chem2bio2rdf.org/uniprot/resource/gene/CFTR">
+		<data key="weight">0.0466985518187</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3488:CFTR</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488" target="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC1">
+		<data key="weight">0.0254354846288</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3488:ABCC1</data>
+	</edge>
+	</graph>
+</graphml>

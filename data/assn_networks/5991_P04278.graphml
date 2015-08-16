@@ -1,0 +1,864 @@
+<graphml>
+	<key id="label" for="all" attr.name="label" attr.type="string"/>
+	<key id="class" for="all" attr.name="class" attr.type="string"/>
+	<key id="uri" for="all" attr.name="uri" attr.type="string"/>
+	<key id="startnode" for="all" attr.name="startnode" attr.type="string"/>
+	<key id="evidence" for="all" attr.name="evidence" attr.type="string"/>
+	<key id="weight" for="all" attr.name="weight" attr.type="double"/>
+	<key id="childnodes" for="all" attr.name="childnodes" attr.type="string"/>
+	<key id="nodesize" for="all" attr.name="nodesize" attr.type="double"/>
+	<graph edgedefault="undirected">
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/28417">
+		<data key="label">28417</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:25054">
+		<data key="label">CHEBI:25054</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/147320">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10635	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/261000	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/1752</data>
+		<data key="label">147320(3)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="label">13109</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="label">6013</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5754">
+		<data key="label">5754</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="label">5757</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/AR">
+		<data key="label">AR</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/UGT1A1">
+		<data key="label">UGT1A1</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991">
+		<data key="label">5991</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:24621">
+		<data key="label">CHEBI:24621</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838">
+		<data key="label">CHEBI:36838</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/ESR2">
+		<data key="childnodes">http://chem2bio2rdf.org/uniprot/resource/gene/NR1I3</data>
+		<data key="label">ESR2(1)</data>
+		<data key="class">gene</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/ESR1">
+		<data key="label">ESR1</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="label">SHBG</data>
+		<data key="class">gene</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50112">
+		<data key="label">CHEBI:50112</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:48705">
+		<data key="label">CHEBI:48705</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6230">
+		<data key="label">6230</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/drugbank/resource/substructure/Alkynes">
+		<data key="label">Alkynes</data>
+		<data key="class">substructure</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343">
+		<data key="label">CHEBI:35343</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="label">224004</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/drugbank/resource/substructure/Steroids_and_Steroid_Derivatives">
+		<data key="childnodes">http://chem2bio2rdf.org/drugbank/resource/substructure/Cyclohexenes_and_Derivatives</data>
+		<data key="label">Steroids_and_Steroid_Derivatives(1)</data>
+		<data key="class">substructure</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/242332">
+		<data key="label">242332</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="label">6446</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:33280">
+		<data key="label">CHEBI:33280</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50114">
+		<data key="label">CHEBI:50114</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CYP3A5">
+		<data key="label">CYP3A5</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5280961">
+		<data key="label">5280961</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC2">
+		<data key="label">ABCC2</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26764">
+		<data key="label">CHEBI:26764</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2">
+		<data key="childnodes">http://chem2bio2rdf.org/uniprot/resource/gene/NR1I2</data>
+		<data key="label">CYP1A2(1)</data>
+		<data key="class">gene</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26768">
+		<data key="label">CHEBI:26768</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="label">5870</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350">
+		<data key="label">CHEBI:35350</data>
+		<data key="class">chebi</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/drugbank/resource/substructure/Phenanthrenes">
+		<data key="label">Phenanthrenes</data>
+		<data key="class">substructure</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5754">
+		<data key="weight">1.16713398651e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5754:ABCC2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:24621" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.010297023167</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:33280" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.00811352237435</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/UGT1A1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">9.06378872156e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6013:UGT1A1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26764">
+		<data key="weight">0.00226580331073</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26768" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.0045017419232</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50112" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.00734446614416</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ESR1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/28417">
+		<data key="weight">0.013585018258</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/28417:ESR1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.000119504949568</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5757:ABCC2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50112">
+		<data key="weight">0.00179935567454</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AR" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/147320">
+		<data key="weight">0.00292022600935</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/147320:AR</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">0.0121458337197</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2">
+		<data key="weight">0.00773317528826</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5991:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/UGT1A1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">3.31480357794e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5757:UGT1A1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6230">
+		<data key="weight">0.000641936359374</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:25054" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.0348201509634</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AR" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.00486389323033</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/224004:AR</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/242332" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">3.80955083837e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/242332:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.00182428753984</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5280961" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">0.00030955471971</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5280961:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC2">
+		<data key="weight">1.16713398651e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5991:ABCC2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:33280" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.0232244668391</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:24621" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.0183551797769</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">0.0416753486246</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AR" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.00486389323033</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/13109:AR</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:48705" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.012083231708</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">0.00179935567454</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/13109:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:33280" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.0314711357314</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/242332">
+		<data key="weight">3.80955083837e-05</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5280961">
+		<data key="weight">0.00030955471971</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5280961:ABCC2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5754">
+		<data key="weight">0.0358223712689</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:48705" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.0089471778281</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:24621" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">0.0323818815413</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">0.00325478476684</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6446:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">2.13327831589e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5870:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26768" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.0139231820085</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.0193316570851</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.0085133627344</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ESR1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.00681142798226</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/224004:ESR1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:48705" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">0.0370486159391</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26764" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.0108837282078</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26768" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.00763695221512</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26764" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.00399529076603</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50114" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.00123016873866</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/28417">
+		<data key="weight">0.00638934566976</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/uniprot/resource/gene/UGT1A1">
+		<data key="weight">2.13327831589e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5991:UGT1A1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/drugbank/resource/substructure/Phenanthrenes">
+		<data key="weight">0.0148497010688</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.00325478476684</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50112" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.00506074940107</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50112" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.00179935567454</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:24621" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.00618432148744</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/drugbank/resource/substructure/Phenanthrenes" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.0273174699803</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:33280" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">0.0401277659147</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/242332">
+		<data key="weight">0.000296104100077</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:48705" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.0073319361806</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.00229653289895</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">0.00182428753984</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/224004:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:24621">
+		<data key="weight">0.00618432148744</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.00906681198358</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:48705" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.0212751280875</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5754" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">1.16713398651e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5754:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/drugbank/resource/substructure/Phenanthrenes" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.0148497010688</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26764" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">0.0144808445103</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ESR1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.00681142798226</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6446:ESR1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/drugbank/resource/substructure/Alkynes">
+		<data key="weight">0.00177518590252</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/242332">
+		<data key="weight">0.000125640988719</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6230">
+		<data key="weight">0.00348114235029</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5754">
+		<data key="weight">0.0213229912</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50114">
+		<data key="weight">0.000789200727392</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ESR1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.0468121155193</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5870:ESR1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:33280" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.0132888326732</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.0103516653213</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:24621" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.0251573347737</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AR" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.00486389323033</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6446:AR</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6230" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">0.000641936359374</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6230:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26764" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.00763117924352</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26768" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5754">
+		<data key="weight">0.0213229912</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/uniprot/resource/gene/AR">
+		<data key="weight">0.000503517737602</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5991:AR</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.00763695221512</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/drugbank/resource/substructure/Steroids_and_Steroid_Derivatives">
+		<data key="weight">0.0274104287663</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26764" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.00226580331073</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/drugbank/resource/substructure/Alkynes" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/28417">
+		<data key="weight">0.0088529320562</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/28417" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">0.00267635297517</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/28417:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ESR2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.0468121155193</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5870:ESR2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/28417">
+		<data key="weight">0.011784400699</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP1A2" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.00773317528826</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5757:CYP1A2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6230">
+		<data key="weight">0.00172541306669</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/147320" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">0.00292022600935</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/147320:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/uniprot/resource/gene/ESR1">
+		<data key="weight">0.00681142798226</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5991:ESR1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.0055562189972</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/CYP3A5" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">7.98991882101e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6013:CYP3A5</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:48705">
+		<data key="weight">0.0073319361806</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/UGT1A1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">2.13327831589e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5870:UGT1A1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26768">
+		<data key="weight">0.0045017419232</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/drugbank/resource/substructure/Alkynes" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6230">
+		<data key="weight">0.00177518590252</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AR" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5754">
+		<data key="weight">0.040699481439</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5754:AR</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:24621" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.00757716539505</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6446">
+		<data key="weight">0.0139024950801</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:33280" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.00987695059153</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50112" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">0.00991457194225</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">0.0251526585078</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/uniprot/resource/gene/ESR2">
+		<data key="weight">0.0468121155193</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5991:ESR2</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/uniprot/resource/gene/CYP3A5">
+		<data key="weight">7.98991882101e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5991:CYP3A5</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/28417">
+		<data key="weight">0.00267635297517</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/drugbank/resource/substructure/Alkynes" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.00981356191364</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">7.98991882101e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/6013:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ESR1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13109">
+		<data key="weight">0.00681142798226</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/13109:ESR1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838">
+		<data key="weight">0.000125640988719</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/drugbank/resource/substructure/Steroids_and_Steroid_Derivatives" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6230">
+		<data key="weight">0.0274104287663</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757" target="http://chem2bio2rdf.org/uniprot/resource/gene/SHBG">
+		<data key="weight">3.31480357794e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/5757:SHBG</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26768" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6013">
+		<data key="weight">0.0251526585078</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:50114" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5870">
+		<data key="weight">0.000789200727392</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:33280">
+		<data key="weight">0.00811352237435</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.0327404517742</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35343">
+		<data key="weight">3.80955083837e-05</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:36838" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/224004">
+		<data key="weight">0.0045017419232</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:25054">
+		<data key="weight">0.0348201509634</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:26768" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.0193316570851</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:48705" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5757">
+		<data key="weight">0.0289531734325</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5991" target="http://chem2bio2rdf.org/chebi/resource/chebi/CHEBI:35350">
+		<data key="weight">0.000296104100077</data>
+		<data key="label">chebi</data>
+		<data key="uri">http://chem2bio2rdf.org/chebi</data>
+	</edge>
+	</graph>
+</graphml>

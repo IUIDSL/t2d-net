@@ -1,0 +1,513 @@
+<graphml>
+	<key id="label" for="all" attr.name="label" attr.type="string"/>
+	<key id="class" for="all" attr.name="class" attr.type="string"/>
+	<key id="uri" for="all" attr.name="uri" attr.type="string"/>
+	<key id="startnode" for="all" attr.name="startnode" attr.type="string"/>
+	<key id="evidence" for="all" attr.name="evidence" attr.type="string"/>
+	<key id="weight" for="all" attr.name="weight" attr.type="double"/>
+	<key id="childnodes" for="all" attr.name="childnodes" attr.type="string"/>
+	<key id="nodesize" for="all" attr.name="nodesize" attr.type="double"/>
+	<graph edgedefault="undirected">
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44820249">
+		<data key="label">44820249</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265781">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265780	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15218074	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44346204	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265734	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265809	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265824	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265802	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265803	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265805	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265807	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44346152	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15389574	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15389573	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265791	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/13137289	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265770	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265776	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9883791	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265815	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44346217	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44346057	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265705	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15218073	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265836	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265819	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265833	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265832	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265816	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265704	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15221167</data>
+		<data key="label">44265781(30)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9822159">
+		<data key="label">9822159</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/29435">
+		<data key="label">29435</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/AGL">
+		<data key="label">AGL</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/176077">
+		<data key="label">176077</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/drugbank/resource/substructure/Glycerol_and_Derivatives">
+		<data key="label">Glycerol_and_Derivatives</data>
+		<data key="class">substructure</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0004558">
+		<data key="childnodes">http://bio2rdf.org/GO/GO:0004553</data>
+		<data key="label">GO:0004558(1)</data>
+		<data key="class">GO</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/SI">
+		<data key="label">SI</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15389575">
+		<data key="label">15389575</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/GAA">
+		<data key="label">GAA</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/444020">
+		<data key="label">444020</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44320078">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/469850	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/389416</data>
+		<data key="label">44320078(2)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="label">MGAM</data>
+		<data key="class">gene</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0005975">
+		<data key="label">GO:0005975</data>
+		<data key="class">GO</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/501391">
+		<data key="label">501391</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/441184">
+		<data key="label">441184</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10039088">
+		<data key="label">10039088</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/441314">
+		<data key="label">441314</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/51634">
+		<data key="label">51634</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa00052">
+		<data key="label">hsa00052</data>
+		<data key="class">kegg_pathway</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa00500">
+		<data key="label">hsa00500</data>
+		<data key="class">kegg_pathway</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/92381">
+		<data key="label">92381</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15221166">
+		<data key="label">15221166</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/441314" target="http://chem2bio2rdf.org/uniprot/resource/gene/AGL">
+		<data key="weight">5.16324316635e-10</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/441314:AGL</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/92381" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">1.10988539137e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/92381:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa00052" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">0.00127128881875</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10039088">
+		<data key="weight">5.59462898231e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/10039088:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15221166">
+		<data key="weight">5.38609040701e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/15221166:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/29435" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">7.13939639629e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/29435:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/51634" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">3.4594522802e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/51634:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa00500">
+		<data key="weight">0.00281062102189</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10039088">
+		<data key="weight">5.38609040701e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/10039088:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AGL" target="http://bio2rdf.org/GO/GO:0005975">
+		<data key="weight">0.0438275584598</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0004558" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">2.78960811795e-05</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/501391">
+		<data key="weight">1.10988539137e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/501391:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa00052">
+		<data key="weight">0.00127128881875</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44820249">
+		<data key="weight">1.10988539137e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44820249:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15389575">
+		<data key="weight">5.59462898231e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/15389575:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AGL" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/29435">
+		<data key="weight">7.13939639629e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/29435:AGL</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/444020">
+		<data key="weight">5.38609040701e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/444020:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/444020">
+		<data key="weight">5.59462898231e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/444020:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15221166">
+		<data key="weight">5.59462898231e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/15221166:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AGL" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9822159">
+		<data key="weight">5.16324316635e-10</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/9822159:AGL</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15389575" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">5.59462898231e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/15389575:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/176077">
+		<data key="weight">3.54299446337e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/176077:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://bio2rdf.org/GO/GO:0004558">
+		<data key="weight">2.78960811795e-05</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/29435">
+		<data key="weight">4.09418207566e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/29435:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44820249" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">5.16324316635e-10</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44820249:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15221166" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">5.59462898231e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/15221166:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/15389575">
+		<data key="weight">5.38609040701e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/15389575:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/176077">
+		<data key="weight">2.55107155434e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/176077:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AGL" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/51634">
+		<data key="weight">3.4594522802e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/51634:AGL</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AGL" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/501391">
+		<data key="weight">5.16324316635e-10</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/501391:AGL</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/51634">
+		<data key="weight">5.62173874119e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/51634:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/51634">
+		<data key="weight">3.90959925656e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/51634:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/441184" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">1.99901367681e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/441184:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/441314" target="http://chem2bio2rdf.org/uniprot/resource/gene/GAA">
+		<data key="weight">8.56671955596e-10</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/441314:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265781" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">9.30569310498e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44265781:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/441184">
+		<data key="weight">1.76695480691e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/441184:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/441314" target="http://chem2bio2rdf.org/drugbank/resource/substructure/Glycerol_and_Derivatives">
+		<data key="weight">0.0327597020953</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/441314" target="http://chem2bio2rdf.org/uniprot/resource/gene/SI">
+		<data key="weight">9.30569310498e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/441314:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/176077" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">2.0102340903e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/176077:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/92381">
+		<data key="weight">1.10988539137e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/92381:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/29435">
+		<data key="weight">7.21324249564e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/29435:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44265781">
+		<data key="weight">9.30569310498e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44265781:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AGL" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/176077">
+		<data key="weight">2.0102340903e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/176077:AGL</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44820249">
+		<data key="weight">8.70069490788e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44820249:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/drugbank/resource/substructure/Glycerol_and_Derivatives" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/444020">
+		<data key="weight">0.0327597020953</data>
+		<data key="label">substructure</data>
+		<data key="uri">http://chem2bio2rdf.org/substructure</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/444020" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">5.59462898231e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/444020:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AGL" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44820249">
+		<data key="weight">5.16324316635e-10</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44820249:AGL</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/441184">
+		<data key="weight">1.99901367681e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/441184:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9822159" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">5.16324316635e-10</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/9822159:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9822159">
+		<data key="weight">8.70069490788e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/9822159:SI</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0005975" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">0.0438275584598</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/501391">
+		<data key="weight">8.70069490788e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/501391:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10039088" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">5.59462898231e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/10039088:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44320078" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">1.99901367681e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44320078:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa00500">
+		<data key="weight">0.00523252881935</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/501391" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">5.16324316635e-10</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/501391:MGAM</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44320078">
+		<data key="weight">1.99901367681e-08</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44320078:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SI" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/92381">
+		<data key="weight">8.70069490788e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/92381:SI</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/GAA" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9822159">
+		<data key="weight">1.10988539137e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/9822159:GAA</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/AGL" target="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa00500">
+		<data key="weight">0.000348456464721</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa00500" target="http://chem2bio2rdf.org/uniprot/resource/gene/MGAM">
+		<data key="weight">0.000348456464721</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	</graph>
+</graphml>

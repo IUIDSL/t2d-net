@@ -1,0 +1,288 @@
+<graphml>
+	<key id="label" for="all" attr.name="label" attr.type="string"/>
+	<key id="class" for="all" attr.name="class" attr.type="string"/>
+	<key id="uri" for="all" attr.name="uri" attr.type="string"/>
+	<key id="startnode" for="all" attr.name="startnode" attr.type="string"/>
+	<key id="evidence" for="all" attr.name="evidence" attr.type="string"/>
+	<key id="weight" for="all" attr.name="weight" attr.type="double"/>
+	<key id="childnodes" for="all" attr.name="childnodes" attr.type="string"/>
+	<key id="nodesize" for="all" attr.name="nodesize" attr.type="double"/>
+	<graph edgedefault="undirected">
+	<node id="http://bio2rdf.org/GO/GO:0015272">
+		<data key="label">GO:0015272</data>
+		<data key="class">GO</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3478">
+		<data key="label">3478</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ1">
+		<data key="label">KCNJ1</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ10">
+		<data key="label">KCNJ10</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="label">KCNJ11</data>
+		<data key="class">gene</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/hgnc/resource/gene_family/KCN,Kir">
+		<data key="label">KCN,Kir</data>
+		<data key="class">gene_family</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ8">
+		<data key="label">KCNJ8</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/omim/resource/omim_disease/427">
+		<data key="label">427</data>
+		<data key="class">omim_disease</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44379806">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10431921	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10810351	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/219048	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9800873	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/4397986	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5240098	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10620857	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10500343	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44361253	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10045948	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44361142	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10644163	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44379586	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11631402	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9900730	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10522137	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9947948	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10760503	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10738538	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9966294	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10022595	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9864353	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/21183546	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10834988	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10690586	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10787333	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10341099	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10834192	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10667926	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10667925	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10501033	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3019	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10621914	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10456839	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10737609	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10249251	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9948658	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10318275	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10455786	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10572530	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/71191	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10215525	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10620412	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9814249	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9799336	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9950829	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9864804	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10667106	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10643113	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9862760	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10546096	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9930941	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9797402	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10809911	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10692234	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11696064	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10321411	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10451456	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10621403	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10761999	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10365187	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9974946	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10831890	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10644842	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10221321	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9819831	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9799392	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10265073	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10713175	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44293670	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10811387	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3037766	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44379784	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10524485	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/21197802	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11617156	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9865602	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/177852	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10572397	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10834289	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/824060	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9835694	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10761920	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10784372	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9886164	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9885495	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10787580	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11778085	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44331875	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9994121	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11230479	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9922629	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10433766	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10362210	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10810245	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9948052	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/11508571	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10068147	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/10547789	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/9841562</data>
+		<data key="label">44379806(100)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3476">
+		<data key="label">3476</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488">
+		<data key="label">3488</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://bio2rdf.org/GO/GO:0005244">
+		<data key="label">GO:0005244</data>
+		<data key="class">GO</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC8">
+		<data key="label">ABCC8</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3047758">
+		<data key="label">3047758</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/60026">
+		<data key="label">60026</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/65981">
+		<data key="label">65981</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ1" target="http://chem2bio2rdf.org/hgnc/resource/gene_family/KCN,Kir">
+		<data key="weight">0.0155844841428</data>
+		<data key="label">Gene_Family_Name</data>
+		<data key="uri">http://chem2bio2rdf.org/hgnc/resource/Gene_Family_Name</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44379806">
+		<data key="weight">2.18157542253e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44379806:ABCC8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ1" target="http://bio2rdf.org/GO/GO:0005244">
+		<data key="weight">0.0358264159285</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/60026" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ10">
+		<data key="weight">5.95857807539e-11</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/60026:KCNJ10</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/omim/resource/omim_disease/427" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3476">
+		<data key="weight">0.030581083325</data>
+		<data key="label">drug</data>
+		<data key="uri">http://chem2bio2rdf.org/omim/resource/drug</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ10" target="http://bio2rdf.org/GO/GO:0005244">
+		<data key="weight">0.0358264159285</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC8" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">0.0455142727201</data>
+		<data key="label">hprd</data>
+		<data key="uri">http://chem2bio2rdf.org/hprd</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0005244" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">0.0358264159285</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ10" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3047758">
+		<data key="weight">5.95857807539e-11</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3047758:KCNJ10</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488">
+		<data key="weight">0.000273569239305</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3488:ABCC8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3047758" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">5.95857807539e-11</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3047758:KCNJ11</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3478" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">3.51004969534e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3478:KCNJ11</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC8" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ8">
+		<data key="weight">0.00161326623702</data>
+		<data key="label">hprd</data>
+		<data key="uri">http://chem2bio2rdf.org/hprd</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ8" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">0.00161326623702</data>
+		<data key="label">hprd</data>
+		<data key="uri">http://chem2bio2rdf.org/hprd</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ10" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3478">
+		<data key="weight">3.51004969534e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3478:KCNJ10</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3476" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">5.95857807539e-11</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3476:KCNJ11</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ10" target="http://chem2bio2rdf.org/hgnc/resource/gene_family/KCN,Kir">
+		<data key="weight">0.0155844841428</data>
+		<data key="label">Gene_Family_Name</data>
+		<data key="uri">http://chem2bio2rdf.org/hgnc/resource/Gene_Family_Name</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/65981">
+		<data key="weight">2.14570051725e-05</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/65981:ABCC8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ10" target="http://bio2rdf.org/GO/GO:0015272">
+		<data key="weight">1.48912257634e-05</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3476">
+		<data key="weight">5.95857807539e-11</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3476:KCNJ1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/44379806" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">2.18157542253e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/44379806:KCNJ11</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488">
+		<data key="weight">1.26282559854e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3488:KCNJ1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/65981" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">3.51004969534e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/65981:KCNJ11</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC8" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3047758">
+		<data key="weight">1.06257133281e-06</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3047758:ABCC8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">1.26282559854e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3488:KCNJ11</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/65981">
+		<data key="weight">3.51004969534e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/65981:KCNJ1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/60026" target="http://chem2bio2rdf.org/uniprot/resource/gene/ABCC8">
+		<data key="weight">2.18157542253e-07</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/60026:ABCC8</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ1" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3478">
+		<data key="weight">3.51004969534e-09</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/3478:KCNJ1</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0015272" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">1.48912257634e-05</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/60026" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ1">
+		<data key="weight">5.95857807539e-11</data>
+		<data key="label">chemogenomics</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/chemogenomics</data>
+		<data key="evidence">http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/cid_gene/60026:KCNJ1</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/60026" target="http://chem2bio2rdf.org/omim/resource/omim_disease/427">
+		<data key="weight">0.030581083325</data>
+		<data key="label">drug</data>
+		<data key="uri">http://chem2bio2rdf.org/omim/resource/drug</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/hgnc/resource/gene_family/KCN,Kir" target="http://chem2bio2rdf.org/uniprot/resource/gene/KCNJ11">
+		<data key="weight">0.0155844841428</data>
+		<data key="label">Gene_Family_Name</data>
+		<data key="uri">http://chem2bio2rdf.org/hgnc/resource/Gene_Family_Name</data>
+	</edge>
+	</graph>
+</graphml>

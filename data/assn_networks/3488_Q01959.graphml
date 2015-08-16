@@ -1,0 +1,101 @@
+<graphml>
+	<key id="label" for="all" attr.name="label" attr.type="string"/>
+	<key id="class" for="all" attr.name="class" attr.type="string"/>
+	<key id="uri" for="all" attr.name="uri" attr.type="string"/>
+	<key id="startnode" for="all" attr.name="startnode" attr.type="string"/>
+	<key id="evidence" for="all" attr.name="evidence" attr.type="string"/>
+	<key id="weight" for="all" attr.name="weight" attr.type="double"/>
+	<key id="childnodes" for="all" attr.name="childnodes" attr.type="string"/>
+	<key id="nodesize" for="all" attr.name="nodesize" attr.type="double"/>
+	<graph edgedefault="undirected">
+	<node id="http://bio2rdf.org/GO/GO:0035240">
+		<data key="childnodes">http://bio2rdf.org/GO/GO:0042416</data>
+		<data key="label">GO:0035240(1)</data>
+		<data key="class">GO</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/TH">
+		<data key="label">TH</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6950">
+		<data key="childnodes">http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/23930	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/40326	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/5281875	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3589	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/2982	http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/1388</data>
+		<data key="label">6950(6)</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">3</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/SLC6A3">
+		<data key="label">SLC6A3</data>
+		<data key="class">gene</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488">
+		<data key="label">3488</data>
+		<data key="class">pubchem_compound</data>
+		<data key="nodesize">5</data>
+		<data key="startnode">yes</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa05012">
+		<data key="label">hsa05012</data>
+		<data key="class">kegg_pathway</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<node id="http://chem2bio2rdf.org/uniprot/resource/gene/SNCA">
+		<data key="label">SNCA</data>
+		<data key="class">gene</data>
+		<data key="nodesize">1</data>
+		<data key="startnode">no</data>
+	</node>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/TH" target="http://chem2bio2rdf.org/uniprot/resource/gene/SNCA">
+		<data key="weight">0.0304390972008</data>
+		<data key="label">hprd</data>
+		<data key="uri">http://chem2bio2rdf.org/hprd</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/TH" target="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa05012">
+		<data key="weight">0.00441524774417</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/TH" target="http://bio2rdf.org/GO/GO:0035240">
+		<data key="weight">0.00216772888606</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/kegg/resource/kegg_pathway/hsa05012" target="http://chem2bio2rdf.org/uniprot/resource/gene/SLC6A3">
+		<data key="weight">0.00441524774417</data>
+		<data key="label">protein</data>
+		<data key="uri">http://chem2bio2rdf.org/kegg/resource/protein</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/SNCA" target="http://chem2bio2rdf.org/uniprot/resource/gene/SLC6A3">
+		<data key="weight">0.0304390972008</data>
+		<data key="label">hprd</data>
+		<data key="uri">http://chem2bio2rdf.org/hprd</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/uniprot/resource/gene/TH" target="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6950">
+		<data key="weight">1.41712351729e-05</data>
+		<data key="label">expression</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/expression</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/6950" target="http://chem2bio2rdf.org/uniprot/resource/gene/SLC6A3">
+		<data key="weight">1.41712351729e-05</data>
+		<data key="label">expression</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/expression</data>
+	</edge>
+	<edge source="http://bio2rdf.org/GO/GO:0035240" target="http://chem2bio2rdf.org/uniprot/resource/gene/SLC6A3">
+		<data key="weight">0.00216772888606</data>
+		<data key="label">GO_ID</data>
+		<data key="uri">http://chem2bio2rdf.org/uniprot/resource/GO_ID</data>
+	</edge>
+	<edge source="http://chem2bio2rdf.org/pubchem/resource/pubchem_compound/3488" target="http://chem2bio2rdf.org/uniprot/resource/gene/TH">
+		<data key="weight">1.41712351729e-05</data>
+		<data key="label">expression</data>
+		<data key="uri">http://chem2bio2rdf.org/chemogenomics/resource/expression</data>
+	</edge>
+	</graph>
+</graphml>
