@@ -11,7 +11,7 @@ FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merg
 	FIELDTERMINATOR '\t'
 CREATE
 	(c:Compound {
-		CID: csvLine.PUBCHEM_COMPOUND_CID,
+		CID:trim(csvLine.PUBCHEM_COMPOUND_CID),
 		name:csvLine.PUBCHEM_IUPAC_TRADITIONAL_NAME,
 		smiles:csvLine.PUBCHEM_OPENEYE_CAN_SMILES})
 	;
@@ -29,18 +29,13 @@ CREATE
 
 -- Compound-Genes (chemogenomic) edges:
 USING PERIODIC COMMIT 500
-LOAD CSV WITH HEADERS
-FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_edges_chemogenomic.tsv"
-	AS csvLine 
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_edges.tsv" AS csvLine 
 MATCH
-	(c:Compound {CID:csvLine.CID}),
-	(g:Gene {gene_symbol:csvLine.Gene})
-CREATE (c)-[:chemogenomic {
-		name:csvLine.name,
-		evidence:csvLine.evidence,
-		weight:toFloat(csvLine.weight)}
-	]->(g)
-	;
+	(c:Compound {CID:csvLine.CID}), (g:Gene {gene_symbol:csvLine.Gene})
+WHERE csvLine.label = 'chemogenomics'
+CREATE (c)-[:chemogenomics
+		{name:csvLine.name, evidence:csvLine.evidence, weight:toFloat(csvLine.weight)}
+	]->(g) ;
 
 -- Proteins:
 LOAD CSV WITH HEADERS
