@@ -26,26 +26,26 @@ resulting dataset as a knowledge network (KN), for further use by the research c
 ## Files
 | file | contents |
 |---|---|
-| diabetes_drugs.smi | 16 SMILES, PubChem CIDs, and names |
-| protein_list.csv | 2228 C2B2R protein targets with SwissProt IDs
-| t2dm_dtp_links.csv | SLAP summary results, 56 associations |
-| t2dm_dtp.csv | SLAP results, includes 56 hits and 35592 misses |
-| slap_dtp_merged.xgmml | Merged, annotated, association network |
-|CID_TID.graphml | (56 files) association networks for all SLAP hits |
+| `diabetes_drugs.smi` | 16 SMILES, PubChem CIDs, and names |
+| `protein_list.csv` | 2228 C2B2R protein targets with SwissProt IDs
+| `t2d_dtp_links.csv` | SLAP summary results, 56 associations |
+| `t2d_dtp.csv` | SLAP results, includes 56 hits and 35592 misses |
+| `slap_dtp_merged.xgmml` | Merged, annotated, association network |
+| `CID_TID.graphml` | (56 files) association networks for all SLAP hits |
 
 ## Glossary
 | term | definition |
 |---|---|
-| T2DM or T2D | Type-2 Diabetes Mellitus, a.k.a. Type-2 Diabetes |
+| T2D or T2DM | Type-2 Diabetes, a.k.a. Type-2 Diabetes Mellitus |
 | C2B2R | Chem2Bio2RDF |
 | SLAP| Semantically Linked Association Prediction |
 | DTP | drug-target prediction (SLAP method) |
 | KN | knowledge network |
 | AN | association network, refers to SLAP sub-network associating one compound to one target, including linking associations |
 
-![](images/T2DM_project_diagram.png)
+![](images/T2D_project_diagram.png)
 
-![](images/T2DM_project_diagram_2.png)
+![](images/T2D_project_diagram_2.png)
 
 ### Methodology notes
 

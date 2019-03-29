@@ -1,5 +1,6 @@
 -- See https://neo4j.com/docs/getting-started/current/cypher-intro/load-csv/
--- Note: "MATCH (n) DELETE n" deletes all nodes.
+-- "MATCH (n) DELETE n" deletes all nodes.
+-- "MATCH (n) DETACH DELETE n" deletes all nodes and relationships.
 -- Load SLAP results linking drugs and targets from Google Sheets.
 
 
@@ -7,6 +8,7 @@
 LOAD CSV FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/diabetes_drugs.smi" AS csvLine CREATE (d:Drug {smiles: csvLine[0], name: csvLine[1], CID: csvLine[2]})
 
 -- Compounds:
+-- Must be fetched from PubChem by CID.
 
 -- Proteins:
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/protein_list.csv" AS csvLine CREATE (p:Protein {UniprotID: csvLine.protein_accession, name: csvLine.name})
