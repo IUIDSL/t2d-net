@@ -1,10 +1,11 @@
--- See https://neo4j.com/docs/getting-started/current/cypher-intro/load-csv/
--- "MATCH (n) DELETE n" deletes all nodes.
--- "MATCH (n) DETACH DELETE n" deletes all nodes and relationships.
--- Load SLAP results linking drugs and targets from Google Sheets.
+// See https://neo4j.com/docs/getting-started/current/cypher-intro/load-csv/
+// cypher-shell "MATCH (n) DELETE n" deletes all nodes.
+// cypher-shell "MATCH (n) DETACH DELETE n" deletes all nodes and relationships.
+// CALL dbms.security.createUser('jjyang', 'assword')
+// In Community Edition, all users have admin role.
 
 
--- Compounds:
+// Compounds:
 LOAD CSV WITH HEADERS
 FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes_compounds.tsv"
 	AS csvLine
@@ -16,7 +17,7 @@ CREATE
 		smiles:csvLine.PUBCHEM_OPENEYE_CAN_SMILES})
 	;
 
--- Genes:
+// Genes:
 LOAD CSV WITH HEADERS
 FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes_genes.tsv"
 	AS csvLine
@@ -27,9 +28,10 @@ CREATE
 		})
 	;
 
--- Compound-Genes (chemogenomic) edges:
+// Compound-Genes (chemogenomic) edges:
 USING PERIODIC COMMIT 500
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_edges.tsv" AS csvLine 
+	FIELDTERMINATOR '\t'
 MATCH
 	(c:Compound {CID:csvLine.CID}), (g:Gene {gene_symbol:csvLine.Gene})
 WHERE csvLine.label = 'chemogenomics'
@@ -37,7 +39,7 @@ CREATE (c)-[:chemogenomics
 		{name:csvLine.name, evidence:csvLine.evidence, weight:toFloat(csvLine.weight)}
 	]->(g) ;
 
--- Proteins:
+// Proteins:
 LOAD CSV WITH HEADERS
 FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/protein_list.csv"
 	AS csvLine
@@ -47,11 +49,9 @@ CREATE
 		name:csvLine.name})
 	;
 
+// Other Cytoscape classes:
 
--- Other Cytoscape classes:
-
-
--- Diabetes Drugs:
+// Diabetes Drugs:
 LOAD CSV
 FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/diabetes_drugs.smi"
 	AS csvLine
@@ -62,7 +62,7 @@ CREATE
 		CID:csvLine[2]})
 	;
 
--- SLAP Compound-Target Associations:
+// SLAP Compound-Target Associations:
 USING PERIODIC COMMIT 500
 LOAD CSV WITH HEADERS
 FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/t2d_dtp_links.csv" 
