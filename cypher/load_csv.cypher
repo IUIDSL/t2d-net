@@ -17,6 +17,70 @@ CREATE
 		smiles:csvLine.PUBCHEM_OPENEYE_CAN_SMILES})
 	;
 
+// OMIM Diseases (from all-nodes file):
+LOAD CSV WITH HEADERS
+FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes.csv"
+	AS csvLine
+CREATE
+	(d:Disease { OMIM_ID:csvLine.label })
+WHERE
+	csvLine.class = 'omim_disease' ;
+
+// KEGG Pathways (from all-nodes file):
+LOAD CSV WITH HEADERS
+FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes.csv"
+	AS csvLine
+CREATE
+	(p:Pathway { KEGG_ID:csvLine.label })
+WHERE
+	csvLine.class = 'kegg_pathway' ;
+
+// GO terms (from all-nodes file):
+LOAD CSV WITH HEADERS
+FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes.csv"
+	AS csvLine
+CREATE
+	(g:GO { GO_ID:csvLine.label })
+WHERE
+	csvLine.class = 'GO' ;
+
+// Gene families (from all-nodes file):
+LOAD CSV WITH HEADERS
+FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes.csv"
+	AS csvLine
+CREATE
+	(g:GeneFam { HGNC_GeneFam:csvLine.label })
+WHERE
+	csvLine.class = 'gene_family' ;
+
+// CHEBI chemicals (from all-nodes file):
+LOAD CSV WITH HEADERS
+FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes.csv"
+	AS csvLine
+CREATE
+	(g:Chebi { CHEBI_ID:csvLine.label })
+WHERE
+	csvLine.class = 'chebi' ;
+
+// Substructures (from all-nodes file):
+LOAD CSV WITH HEADERS
+FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes.csv"
+	AS csvLine
+CREATE
+	(s:Substructure { name:csvLine.label })
+WHERE
+	csvLine.class = 'substructure' ;
+
+// Tissues (from all-nodes file):
+LOAD CSV WITH HEADERS
+FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes.csv"
+	AS csvLine
+CREATE
+	(t:Tissue { name:csvLine.label })
+WHERE
+	csvLine.class = 'tissue' ;
+
+
 // Genes:
 LOAD CSV WITH HEADERS
 FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes_genes.tsv"
@@ -46,10 +110,8 @@ FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/protein_list.
 CREATE
 	(p:Protein {
 		UniprotID:csvLine.protein_accession,
-		name:csvLine.name})
-	;
+		name:csvLine.name}) ;
 
-// Other Cytoscape classes:
 
 // Diabetes Drugs:
 LOAD CSV
@@ -59,8 +121,7 @@ CREATE
 	(d:Drug {
 		smiles:csvLine[0],
 		name:csvLine[1],
-		CID:csvLine[2]})
-	;
+		CID:csvLine[2]}) ;
 
 // SLAP Compound-Target Associations:
 USING PERIODIC COMMIT 500
@@ -74,6 +135,5 @@ CREATE (c)-[:SLAP {
 		score_type: csvLine.score_type,
 		score_note: csvLine.score_note,
 		score: toFloat(csvLine.score)}
-	]->(p)
-	;
+	]->(p) ;
 
