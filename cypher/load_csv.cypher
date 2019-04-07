@@ -5,6 +5,20 @@
 // In Community Edition, all users have admin role.
 
 
+// NODES
+
+// chebi
+// class
+// gene (Gene)
+// gene_family
+// GO (GO)
+// kegg_pathway
+// omim_disease
+// pubchem_compound
+// sider
+// substructure
+// tissue
+
 // Compounds:
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes_compounds.tsv" AS row FIELDTERMINATOR '\t' CREATE (c:Compound { CID:trim(row.PUBCHEM_COMPOUND_CID), name:row.PUBCHEM_IUPAC_TRADITIONAL_NAME, smiles:row.PUBCHEM_OPENEYE_CAN_SMILES}) ;
 
@@ -33,6 +47,21 @@ LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/mas
 // Genes:
 LOAD CSV WITH HEADERS
 FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged_nodes_genes.tsv" AS row FIELDTERMINATOR '\t' CREATE (g:Gene { gene_symbol: row.Gene }) ;
+
+// EDGES
+
+// chebi
+// chemogenomics (Compound)-(Gene)
+// cid
+// drug
+// expression
+// Gene_Family_Name
+// GO_ID
+// hprd
+// label
+// protein
+// substructure
+// tissue
 
 // Compound-Genes (chemogenomic) edges:
 //USING PERIODIC COMMIT 500
