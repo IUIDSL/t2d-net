@@ -4,6 +4,10 @@
 // CALL dbms.security.createUser('jjyang', 'assword')
 // In Community Edition, all users have admin role.
 
+// Exported by Cytoscape: slap_dtp_merged.graphml.cyjs
+// cytoscape_utils.py cyjs2tsv
+// data/slap_dtp_merged.graphml.cyjs.tsv
+
 // NODES (slap_dtp_merged_nodes_compounds.tsv)
 
 // chebi (Chebi)
