@@ -1,25 +1,23 @@
-// Loads T2D-NET Cytoscape-exported node and edge CSVs.
-
-// NOTE: THIS IS NOT WORKING WELL, DUE TO CYTOSCAPE CSV EXPORT DEFICIENCIES.  CYJS BETTER, SO USE CYJS AND CONVERT
-// TO TSV WITH cytoscape_utils.py, Cytoscape API, pandas, etc.
+// Loads T2D-NET from Cytoscape-exported network CYJS, converted to
+// a single TSV by cytoscape_utils.py.
 
 // See https://neo4j.com/docs/getting-started/current/cypher-intro/load-csv/
 // CALL dbms.security.createUser('jjyang', 'assword')
 // In Community Edition, all users have admin role.
 
-// Exported by Cytoscape: slap_dtp_merged.graphml.cyjs
+// Exported by Cytoscape: slap_dtp_merged.cyjs
 // cytoscape_utils.py cyjs2tsv
-// data/slap_dtp_merged.graphml.cyjs.tsv
+// data/slap_dtp_merged.cyjs.tsv
 
-// NODES (slap_dtp_merged_nodes_compounds.tsv)
+// NODES
 
-// chebi (Chebi)
+// pubchem_compound
 // gene (Gene)
-// gene_family
-// GO (GO)
-// kegg_pathway
 // omim_disease
-// pubchem_compound (Compound)
+// kegg_pathway
+// GO
+// chebi
+// gene_family
 // sider
 // substructure
 // tissue
