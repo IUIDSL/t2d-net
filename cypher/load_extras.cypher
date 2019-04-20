@@ -24,8 +24,9 @@ RETURN COUNT(g);
 //AS row CREATE (d:Drug { smiles:row[0], name:row[1], CID:row[2]}) ;
 
 // SLAP Compound-Target Associations:
-//LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/t2d_dtp_links.csv"
-//AS row
-//MATCH (c:Compound {CID:row.CID}), (p:Protein {UniprotID:row.TID})
-//CREATE (c)-[:SLAP { score_type: row.score_type, score_note: row.score_note, score: toFloat(row.score)}]->(p) ;
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/t2d_dtp_links.csv"
+AS row
+MATCH (c:Compound {CID:row.CID}), (g:Gene {UniprotID:row.TID})
+CREATE (c)-[:SLAP { score_type: row.score_type, score_note: row.score_note, score: toFloat(row.score)}]->(p)
+RETURN COUNT(c);
 
