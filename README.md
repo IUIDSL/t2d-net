@@ -50,7 +50,7 @@ resulting dataset as a knowledge network (KN), for further use by the research c
 ### Methodology notes
 
 ```
-$ csv_utils.py --i slap_dtp_merged_nodes_export.csv --coltag "class" --colvalcounts
+slap_dtp_merged_nodes_export.csv "class" counts:
 "class" is column 5.
 values, col 5 "class", unique: 10 ; total: 443
                    class        counts
@@ -65,7 +65,7 @@ values, col 5 "class", unique: 10 ; total: 443
           "substructure"             7 ( 1.580%)
                 "tissue"             1 ( 0.226%)
 
-$ csv_utils.py --i slap_dtp_merged_edges_export.csv --coltag "label" --colvalcounts
+slap_dtp_merged_edges_export.csv "label" counts:
 "label" is column 5.
 values, col 5 "label", unique: 11 ; total: 4577
                    label        counts
