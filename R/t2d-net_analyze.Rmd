@@ -1,0 +1,84 @@
+---
+title: "T2D-Net"
+author: "Jeremy Yang"
+output:
+  html_document:
+    number_sections: yes
+    toc: yes
+---
+
+# Introduction
+
+This knowledge network a.k.a. knowledge graph (KG) was built using SLAP, from
+a set of 16 known (approved) diabetes drugs, by searching SLAP in
+drug-target-pair-prediction mode vs all possible targets. The SLAP results, sub-KGs,
+were then merged into a single merged KG.
+
+Additional data is merged for interpretability, such as SMILES for compounds, and
+names for drugs, genes and diseases.
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE)
+base::date()
+```
+
+```{r warning=FALSE}
+library(readr)
+library(data.table, quietly=T)
+library(plotly, quietly=T)
+```
+
+# Targets associated with T2D by SLAP
+
+```{r}
+tgts <- read_csv("data/protein_list.csv", col_types = cols_only(protein_accession = col_character(), name = col_character()))
+setDT(tgts)
+sprintf("Total T2D-NET targets: %d", nrow(tgts))
+```
+
+# IDG TCRD
+
+See <https://pharos.nih.gov/>
+
+## IDG TDLs
+
+TDLs defined: <https://druggablegenome.net/ProteinFam>
+
+
+```{r}
+tcrd <- read_csv("data/tcrd_targets.csv", col_types = cols_only(protein.uniprot = col_character(), protein.sym = col_character(),  target.name = col_character(), target.tdl = col_character(), protein.chr = col_character(), protein.geneid = col_character(), protein.stringid = col_character()))
+setDT(tcrd)
+tgts <- merge(tgts, tcrd, by.x="protein_accession", by.y="protein.uniprot", all.x=T)
+tdl_counts <- table(tgts$target.tdl, useNA="ifany")
+
+for (tdl in c("Tclin", "Tchem", "Tbio", "Tdark")) {
+  writeLines(sprintf("IDG Target Development Level (TDL): %s; N = %d", tdl, tdl_counts[tdl]))
+}
+sprintf("Total targets associated with drug MoA: %d", nrow(tgts[target.tdl == "Tclin", ]))
+sprintf("Total targets NOT associated with drug MoA: %d", nrow(tgts[target.tdl != "Tclin", ]))
+```
+
+# IDG TIN-X
+
+See <https://newdrugtargets.org?disease=3482>
+Definitions: <https://academic.oup.com/bioinformatics/article/33/16/2601/3111842>
+
+```{r}
+tinx <- read_csv("data/TINX_diabetes.csv", col_types = cols_only(uniprot = col_character(), name = col_character(), importance_score = col_double(), novelty_score = col_double()))
+setDT(tinx)
+tinx <- tinx[order(-importance_score), ]
+qtl <- quantile(log10(tinx$importance_score), seq(0, 1, .1))
+tgts <- merge(tgts, tinx[, .(uniprot, importance_score, novelty_score)], by.x="protein_accession", by.y="uniprot", all.x=T)
+sprintf("log10(importance) quantile %4s: %7.3f", names(qtl), qtl)
+```
+
+```{r}
+subplot(nrows=2, margin=0.1, shareX=T, shareY=T,
+              plot_ly(name="TINX-Diabetes", type="histogram", x = log10(tinx$importance_score)),
+              plot_ly(name="T2D-NET", type="histogram", x=log10(tgts$importance_score))) %>%
+  layout(title="TIN-X Target Importance scores: Diabetes",
+         xaxis=list(title="log10(importance)"), yaxis=list(title="N"),
+         showlegend=T,
+         margin=list(t=100, l=80, b=80, r=80),
+         font=list(family="Monospace", size=16), titlefont=list(size=22))
+```
