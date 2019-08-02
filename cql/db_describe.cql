@@ -1,10 +1,6 @@
-// Node counts:
-MATCH (n) RETURN "NODES (All): "+toString(COUNT(n)) ;
-
-MATCH (n:Compound) RETURN "NODES (Compound): "+toString(COUNT(n)) ;
-MATCH (n:Gene) RETURN "NODES (Gene): "+toString(COUNT(n)) ;
-
-// Relationship counts:
-MATCH ()-[r]-() RETURN "RELATIONSHIPS (All): "+toString(COUNT(r)) ;
-MATCH ()-[r:chemogenomics]-() RETURN "RELATIONSHIPS (chemogenomics): "+toString(COUNT(r)) ;
-MATCH ()-[r:SLAP]-() RETURN "RELATIONSHIPS (SLAP): "+toString(COUNT(r)) ;
+MATCH (n) RETURN COUNT(n) AS NODES_All ;
+MATCH (n:Compound) RETURN COUNT(n) AS NODES_Compound ;
+MATCH (n:Gene) RETURN COUNT(n) AS NODES_Gene ;
+MATCH ()-[r]-() RETURN COUNT(r) AS RELATIONSHIPS_All ;
+MATCH ()-[r:chemogenomics]-() RETURN COUNT(r) AS RELATIONSHIPS_chemogenomics ;
+MATCH ()-[r:SLAP]-() RETURN COUNT(r) AS RELATIONSHIPS_SLAP ;
