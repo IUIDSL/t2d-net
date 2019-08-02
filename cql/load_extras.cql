@@ -35,3 +35,13 @@ MATCH (c:Compound {CID:row.CID}), (g:Gene {UniprotID:row.TID})
 CREATE (c)-[:SLAP {score_type:row.score_type, score_note:row.score_note, score:toFloat(row.score)}]->(g)
 RETURN COUNT(c);
 
+// C2B2R to OMIM disease IDs
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/c2b2r_OMIM_raw_selected.tsv"
+AS row FIELDTERMINATOR '\t' WITH row
+CREATE (dmim:OMIM_Disease {name:row[1], OMIM_ID:row[2], url:'https://omim.org/entry/'+row[2]})
+RETURN COUNT(dmim) ;
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/c2b2r_OMIM_raw_selected.tsv"
+AS row FIELDTERMINATOR '\t' WITH row
+MATCH (d:Disease {ID:row.Disease_ID}), (dmim:OMIM_Disease {OMIM_ID:row.OMIM_Disease_ID})
+CREATE (d)-[:OMIM {class:'C2B2R_diseasegroup_OMIM_member'}]->(dmim)
+RETURN COUNT (dmim);

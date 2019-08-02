@@ -2928,4 +2928,3 @@ ID	Disease_ID	Disorder_name	gene	Gene_symbols	OMIM_ID	Chromosome	Class	OMIM_Dise
 2927	1615	Zellweger syndrome, complementation group 9 (3)	PEX16	PEX16	603360	11p12-p11.2	multiple	9
 2928	1615	Zellweger syndrome, complementation group G, 214100 (3)	PEX3	PEX3	603164	6q23-q24	multiple	214100
 2929	1617	Zlotogora-Ogur syndrome, 225000 (3)	HVEC	HVEC, PVRL1, PVRR1, PRR1	600644	11q23-q24	multiple	225000
-(2929 rows)

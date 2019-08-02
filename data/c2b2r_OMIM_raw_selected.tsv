@@ -29,4 +29,3 @@ ID	Disease_ID	Disorder_name	gene	Gene_symbols	OMIM_ID	Chromosome	Class	OMIM_Dise
 891	427	Diabetic nephropathy, susceptibility to, 603933 (3)	ACE	ACE, DCP1, ACE1	106180	17q23	Endocrine	603933
 892	427	Diabetic retinopathy, NIDDM-related, susceptibility to, 125853 (3)	VEGF	VEGF	192240	6p12	Endocrine	125853
 1451	773	Hypogonadism, hypergonadotropic (3)	LHB	LHB	152780	19q13.32	Endocrine	
-(30 rows)

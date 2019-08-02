@@ -32,7 +32,7 @@
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged.cyjs.tsv"
 AS row FIELDTERMINATOR '\t' WITH row
 WHERE row.node_or_edge = 'node' AND row.class = 'pubchem_compound'
-CREATE (c:Compound { SUID:row.SUID, uri:row.name, name:trim(row.label)}) ;
+CREATE (c:Compound {SUID:row.SUID, uri:row.name, name:trim(row.label)}) ;
 
 // Genes:
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged.cyjs.tsv"
