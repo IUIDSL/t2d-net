@@ -19,7 +19,7 @@
 // NODES
 // pubchem_compound
 // gene (Gene)
-// omim_disease
+// omim_disease (C2B2R_Disease)
 // kegg_pathway
 // GO
 // chebi
@@ -40,11 +40,11 @@ AS row FIELDTERMINATOR '\t' WITH row
 WHERE row.node_or_edge = 'node' AND row.class = 'gene'
 CREATE (g:Gene { SUID:row.SUID, uri:row.name, name:trim(row.label)}) ;
 
-// OMIM Diseases:
+// Diseases:
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged.cyjs.tsv"
 AS row FIELDTERMINATOR '\t' WITH row
 WHERE row.node_or_edge = 'node' AND row.class = 'omim_disease'
-CREATE (d:Disease { SUID:row.SUID, uri:row.name, name:trim(row.label)}) ;
+CREATE (d:C2B2R_Disease { SUID:row.SUID, name:row.name, uri:row.name, ID:trim(row.label)}) ;
 
 // KEGG Pathways:
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/IUIDSL/t2d-net/master/data/slap_dtp_merged.cyjs.tsv"
