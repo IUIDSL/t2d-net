@@ -1,0 +1,32 @@
+ID	Disease_ID	Disorder_name	gene	Gene_symbols	OMIM_ID	Chromosome	Class	OMIM_Disease_ID
+864	427	Diabetes mellitus, 125853 (3)	ABCC8	ABCC8, SUR, PHHI, SUR1	600509	11p15.1	Endocrine	125853
+865	427	Diabetes mellitus, insulin-dependent, 222100 (3)	TCF1	TCF1, HNF1A, MODY3	142410	12q24.2	Endocrine	222100
+866	427	Diabetes mellitus, insulin-dependent, 5, 600320 (3)	SUMO4	SUMO4, IDDM5	608829	6q25	Endocrine	600320
+867	427	Diabetes mellitus, insulin-dependent, susceptibility to, 222100 (3)	PTPN8	PTPN8, PEP, PTPN22, LYP	600716	1p13	Endocrine	222100
+868	427	Diabetes mellitus, insulin-resistant, with acanthosis nigricans (3)	INSR	INSR	147670	19p13.2	Endocrine	
+869	427	Diabetes mellitus, insulin-resistant, with acanthosis nigricans and hypertension, 604367 (3)	PPARG	PPARG, PPARG1, PPARG2	601487	3p25	Endocrine	604367
+870	427	Diabetes mellitus, neonatal-onset, 606176 (3)	GCK	GCK	138079	7p15-p13	Endocrine	606176
+871	427	Diabetes mellitus, noninsulin-dependent, 125853 (3)	GCGR	GCGR	138033	17q25	Endocrine	125853
+872	427	Diabetes mellitus, noninsulin-dependent, 125853 (3)	GPD2	GPD2	138430	2q24.1	Endocrine	125853
+873	427	Diabetes mellitus, noninsulin-dependent, 125853 (3)	HNF4A	HNF4A, TCF14, MODY1	600281	20q12-q13.1	Endocrine	125853
+874	427	Diabetes mellitus, noninsulin-dependent, 125853 (3)	IRS2	IRS2	600797	13q34	Endocrine	125853
+875	427	Diabetes mellitus, noninsulin-dependent, 125853 (3)	MAPK8IP1	MAPK8IP1, IB1	604641	11p12-p11.2	Endocrine	125853
+876	427	Diabetes mellitus, noninsulin-dependent, 125853 (3)	NEUROD1	NEUROD1, NIDDM	601724	2q32	Endocrine	125853
+877	427	Diabetes mellitus, noninsulin-dependent, 125853 (3)	TCF2	TCF2, HNF2	189907	17cen-q21.3	Endocrine	125853
+878	427	Diabetes mellitus, noninsulin-dependent, 2, 125853 (3)	TCF1	TCF1, HNF1A, MODY3	142410	12q24.2	Endocrine	125853
+879	427	Diabetes mellitus, noninsulin-dependent (3)	IRS1	IRS1	147545	2q36	Endocrine	
+880	427	Diabetes mellitus, noninsulin-dependent (3)	SLC2A2	SLC2A2, GLUT2	138160	3q26.1-q26.3	Endocrine	
+881	427	Diabetes mellitus, noninsulin-dependent (3)	SLC2A4	SLC2A4, GLUT4	138190	17p13	Endocrine	
+882	427	Diabetes mellitus, noninsulin-dependent, 601283 (3)	CAPN10	CAPN10	605286	2q37.3	Endocrine	601283
+883	427	Diabetes mellitus, non-insulin-dependent, susceptibility to, 125853 (3)	ENPP1	ENPP1, PDNP1, NPPS, M6S1, PCA1	173335	6q22-q23	Endocrine	125853
+884	427	Diabetes mellitus, noninsulin-dependent, susceptibility to, 125853 (3)	RETN	RETN, RSTN, FIZZ3	605565	19p13.2	Endocrine	125853
+885	427	Diabetes mellitus, permanent neonatal, with cerebellar agenesis, 609069 (3)	PTF1A	PTF1A	607194	10p12.3	Endocrine	609069
+886	427	Diabetes mellitus, permanent neonatal, with neurologic features, 606176 (3)	KCNJ11	KCNJ11, BIR, PHHI	600937	11p15.1	Endocrine	606176
+887	427	Diabetes mellitus, type II, 125853 (3)	AKT2	AKT2	164731	19q13.1-q13.2	Endocrine	125853
+888	427	Diabetes mellitus, type II, susceptibility to, 125853 (3)	IPF1	IPF1	600733	13q12.1	Endocrine	125853
+889	427	Diabetes mellitus, type I, susceptibility to, 222100 (3)	FOXP3	FOXP3, IPEX, AIID, XPID, PIDX	300292	Xp11.23-q13.3	Endocrine	222100
+890	427	Diabetes, permanent neonatal, 606176 (3)	KCNJ11	KCNJ11, BIR, PHHI	600937	11p15.1	Endocrine	606176
+891	427	Diabetic nephropathy, susceptibility to, 603933 (3)	ACE	ACE, DCP1, ACE1	106180	17q23	Endocrine	603933
+892	427	Diabetic retinopathy, NIDDM-related, susceptibility to, 125853 (3)	VEGF	VEGF	192240	6p12	Endocrine	125853
+1451	773	Hypogonadism, hypergonadotropic (3)	LHB	LHB	152780	19q13.32	Endocrine	
+(30 rows)

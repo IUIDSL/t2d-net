@@ -6,6 +6,13 @@
 // In Community Edition, all users have admin privileges.
 ////
 // Property "name" visible by default in Neo4j browser?
+////
+// Note that OMIM IDs and URLs e.g.
+// http://chem2bio2rdf.org/omim/resource/omim_disease/773
+// refer to Chem2Bio2RDF "DIsease_ID"s, e.g.
+// chord=> SELECT * FROM "OMIM_raw" WHERE "Disease_ID" IN (427, 773) ;
+// Disease_ID=773 maps to multiple T2D OMIM diseases.
+////
 
 
 ////
