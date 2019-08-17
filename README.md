@@ -43,9 +43,9 @@ resulting dataset as a knowledge network (KN), for further use by the research c
 | KN | knowledge network |
 | AN | association network, refers to SLAP sub-network associating one compound to one target, including linking associations |
 
-![](images/T2D_project_diagram.png)
+![T2D_project_diagram.png](images/T2D_project_diagram.png)
 
-![](images/T2D_project_diagram_2.png)
+![T2D_project_diagram_2.png](images/T2D_project_diagram_2.png)
 
 ### Methodology notes
 
@@ -82,8 +82,6 @@ values, col 5 "label", unique: 11 ; total: 4577
                 "tissue"             2 ( 0.044%)
 ```
 
-======
-
 ## Neo4j Import
 
 [Neo4j](http://neo4j.com)
@@ -98,7 +96,7 @@ We have followed the example of other biomedical informatics
 projects by converting the T2D-Net dataset
 to Neo4j and sharing the workflow.
 
-![images/T2D_neo4j_01.png]
+![T2D_neo4j_01.png](images/T2D_neo4j_01.png)
 
 ```
 neo4j-client -i load_cytoscape_cyjs2tsv.cql -u neo4j -p ****** localhost
