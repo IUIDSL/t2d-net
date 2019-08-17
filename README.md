@@ -86,6 +86,20 @@ values, col 5 "label", unique: 11 ; total: 4577
 
 ## Neo4j Import
 
+[Neo4j](http://neo4j.com)
+has emerged as a leading graph database system,
+combining concepts from Semantic Web Technologies,
+including RDF `Subject`&rarr;`Predicate`&rarr;`Object` triples, with
+the reliability and performance of enterprise software.
+Although a commercial product, [Neo4j](http://neo4j.com)
+provides a free Community Edition, and supports open standards
+such as Sparql queries and JSON results.
+We have followed the example of other biomedical informatics
+projects by converting the T2D-Net dataset
+to Neo4j and sharing the workflow.
+
+![images/T2D_neo4j_01.png]
+
 ```
 neo4j-client -i load_cytoscape_cyjs2tsv.cql -u neo4j -p ****** localhost
 neo4j-client -i load_extras.cql -u neo4j -p ****** localhost
