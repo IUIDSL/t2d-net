@@ -1,4 +1,5 @@
-# T2D-Net
+
+# T2D-Net <img align="right" height="200" src="images/insulin_1trz.png" alt="insulin_1trz">
 
 IU Integrative Data Science Lab (IDSL) Type-2 Diabetes project
 
@@ -40,10 +41,13 @@ resulting dataset as a knowledge network (KN), for further use by the research c
 | C2B2R | Chem2Bio2RDF |
 | SLAP| Semantically Linked Association Prediction |
 | DTP | drug-target prediction (SLAP method) |
-| KN | knowledge network |
+| KN or KG | knowledge network or graph |
 | AN | association network, refers to SLAP sub-network associating one compound to one target, including linking associations |
 
 ![T2D_project_diagram.png](images/T2D_project_diagram.png)
+
+From query compounds which are known diabetes drugs,heterogeneous linked datasets lead to novel targets via domain appropriate path patterns.
+
 
 ![T2D_project_diagram_2.png](images/T2D_project_diagram_2.png)
 
