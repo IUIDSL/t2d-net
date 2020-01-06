@@ -44,7 +44,6 @@ import csv,json
 import pandas as pd
 #
 import rest_utils_py3 as rest_utils
-import time_utils
 #
 OFMTS={
 	'XML':'application/xml',
@@ -198,8 +197,8 @@ def Sids2CidsTSV(base_url, ids, fout, verbose=0):
       continue
     fout.write('%d,%d\n'%(sid,cid))
     n_out+=1
-    if verbose>0 and (n_in%1000)==0:
-      logging.info('processed: %6d / %6d (%.1f%%); elapsed time: %s'%(n_in,len(ids), 100.0*n_in/len(ids),time_utils.NiceTime(time.time()-t0)))
+    if (n_in%1000)==0:
+      logging.info('processed: %6d / %6d (%.1f%%); elapsed time: %s'%(n_in,len(ids), 100.0*n_in/len(ids), time.strftime('%Hh:%Mm:%Ss', time.gmtime(time.time()-t0))))
   logging.info('sids in: %d'%len(ids))
   logging.info('cids out: %d'%n_out)
   logging.info('errors: %d'%n_err)
@@ -363,8 +362,8 @@ def Cids2Smiles(base_url, ids, isomeric, fout, verbose):
       fout.write('%s %d\n'%(smi, cid))
       n_out+=1
     nskip_this+=nchunk
-    if verbose>0 and (n_in%1000)==0:
-      logging.info('processed: %6d / %6d (%.1f%%); elapsed time: %s'%(n_in, len(ids), 100.0*n_in/len(ids), time_utils.NiceTime(time.time()-t0)))
+    if (n_in%1000)==0:
+      logging.info('processed: %6d / %6d (%.1f%%); elapsed time: %s'%(n_in, len(ids), 100.0*n_in/len(ids), time.strftime('%Hh:%Mm:%Ss', time.gmtime(time.time()-t0))))
   logging.info('CIDs in: %d; SMILES out: %d; errors: %d'%(n_in, n_out, n_err))
   return
 

@@ -6,7 +6,6 @@
 ##############################################################################
 import sys,os,re,argparse,time,logging
 #
-import time_utils
 import pubchem_utils
 #
 API_HOST='pubchem.ncbi.nlm.nih.gov'
@@ -158,5 +157,5 @@ if __name__=='__main__':
   else:
     parser.error('ERROR: no operation specified.')
 
-  if args.verbose:
-    logging.info(("total elapsed time: %s"%(time_utils.NiceTime(time.time()-t0))))
+  logging.info('elapsed time: %s'%(time.strftime('%Hh:%Mm:%Ss', time.gmtime(time.time()-t0))))
+
