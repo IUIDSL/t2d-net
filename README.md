@@ -110,4 +110,6 @@ neo4j-client -i db_describe.cql -u neo4j -p ****** localhost
 
 ## Dependencies
 
-* [BioClients](https://github.com/jeremyjyang/BioClients)
+* [GitHub:Chem2Bio2RDF](https://github.com/IUIDSL/Chem2Bio2RDF)
+* [GitHub:slap-api](https://github.com/IUIDSL/slap-api)
+* [GitHub:BioClients](https://github.com/jeremyjyang/BioClients)
