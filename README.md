@@ -107,3 +107,7 @@ neo4j-client -i load_cytoscape_cyjs2tsv.cql -u neo4j -p ****** localhost
 neo4j-client -i load_extras.cql -u neo4j -p ****** localhost
 neo4j-client -i db_describe.cql -u neo4j -p ****** localhost
 ```
+
+## Dependencies
+
+* [BioClients](https://github.com/jeremyjyang/BioClients)

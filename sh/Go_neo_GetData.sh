@@ -10,10 +10,11 @@ cat ${cwd}/data/slap_dtp_merged_nodes_compounds.tsv \
 #
 printf "CIDS: %d\n" $(cat ${cwd}/data/slap_dtp_merged_nodes_compounds.cid |wc -l)
 #
-${cwd}/python/pubchem_query.py \
+# https://github.com/jeremyjyang/BioClients
+#
+python3 -m BioClients.pubchem.Client get_cid2sdf \
 	--i ${cwd}/data/slap_dtp_merged_nodes_compounds.cid \
 	--o ${cwd}/data/slap_dtp_merged_nodes_compounds.sdf \
-	--cids2sdf
 #
 # (ChemAxon/JChem app)
 molconvert 'smiles:T*' \
