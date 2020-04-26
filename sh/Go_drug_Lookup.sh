@@ -6,26 +6,33 @@
 
 ### Smifile format "SMI NAME CID"
 
-SMIFILE="data/diabetes_drugs.smi"
-CIDFILE="data/diabetes_drugs.cid"
+cwd=$(pwd)
+DATADIR="${cwd}/data"
+OUTDIR="${cwd}/data/tmp"
 
-N=`cat $SMIFILE |wc -l`
-echo "N = $N"
+if [ ! -e "$OUTDIR" ]; then
+	mkdir $OUTDIR
+fi
 
-
-i=0
-while [ $i -lt $N ]; do
-	i=`expr $i + 1`
-	name=`cat $SMIFILE |sed -n ${i}p |awk '{print $2}'`
-	if [ ! "$name" ]; then
-		break
-	fi
-	#
-	rxcui=$(python3 -m BioClients.rxnorm.Client get_name2rxcui --ids "$name"|sed -e '1d' |awk -F '\t' '{print $2}')
-	printf "NAME:\"%s\" -> RxCUI:%s\n" "${name}" "${rxcui}"
-	python3 -m BioClients.rxnorm.Client get_classes_atc --ids "$rxcui"
-	python3 -m BioClients.rxnorm.Client get_classes_mesh --ids "$rxcui"
-	python3 -m BioClients.rxnorm.Client get_classes_ndfrt --ndfrt_type MOA --ids "$rxcui"
-	python3 -m BioClients.rxnorm.Client get_classes_ndfrt --ndfrt_type PE --ids "$rxcui"
-	#
-done
+SMIFILE="$DATADIR/diabetes_drugs.smi"
+NAMEFILE="$OUTDIR/diabetes_drugs.name"
+CIDFILE="$OUTDIR/diabetes_drugs.cid"
+RXCUIFILE="$OUTDIR/diabetes_drugs.rxcui"
+OFILE="$OUTDIR/diabetes_drugs_rxnorm.tsv"
+#
+cat $SMIFILE |awk '{print $2}' >$NAMEFILE
+cat $SMIFILE |awk '{print $3}' >$CIDFILE
+#
+echo "N_smi = $(cat $SMIFILE |wc -l)"
+echo "N_cid = $(cat $CIDFILE |wc -l)"
+#
+python3 -m BioClients.rxnorm.Client get_name2rxcui \
+	--i "$NAMEFILE" \
+	|sed -e '1d' |awk -F '\t' '{print $2}' \
+	|perl -ne 'print if /\S/' \
+	>$RXCUIFILE
+echo "N_rxcui = $(cat $RXCUIFILE |wc -l)"
+#
+python3 -m BioClients.rxnorm.Client get_rxcui_allproperties -v \
+	--i $RXCUIFILE --o $OFILE
+#

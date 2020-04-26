@@ -1,19 +1,28 @@
-#!/bin/sh
+#!/bin/bash
+###
+# The Pg port has been closed to outside IU.
+# So now requires different instance/credentials.
 #
 set -x
 #
 DBHOST="cheminfov.informatics.indiana.edu"
 DBSCHEMA="public"
 DBNAME="chord"
-DBUSR="cicc3"
+DBUSR="==REPLACE_WITH_USERNAME=="
 #
+cwd="$(pwd)"
+OUTDIR="${cwd}/tmp"
 #
-python3 -m BioClients.chem2bio2rdf.Client gettargets -v \
+if [ ! -e "${OUTDIR}" ]; then
+	mkdir ${OUTDIR}
+fi
+#
+python3 -m BioClients.chem2bio2rdf.Client list_targets -v \
 	--dbhost $DBHOST --dbschema $DBSCHEMA --dbname $DBNAME --dbusr $DBUSR \
-	--o data/c2b2r_targets.tsv
+	--o $OUTDIR/c2b2r_targets.tsv
 
 #
-python3 -m BioClients.chem2bio2rdf.Client gettargets getgenes -v \
+python3 -m BioClients.chem2bio2rdf.Client list_genes -v \
 	--dbhost $DBHOST --dbschema $DBSCHEMA --dbname $DBNAME --dbusr $DBUSR \
-	--o data/c2b2r_genes.tsv
+	--o $OUTDIR/c2b2r_genes.tsv
 #
