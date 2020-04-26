@@ -28,10 +28,9 @@ set -x
 #
 # For 16 cpds, 2228 tgts (35648 queries) this took 2.5 days.
 #
-$HOME/utils/slap_query.py \
-	--dtp \
-	--cidfile $CIDFILE \
-	--tidfile $TIDFILE \
+python3 -m BioClients.chem2bio2rdf.slap.Client DTP \
+	--i_cid $CIDFILE \
+	--i_tid $TIDFILE \
 	--o $OFILE \
-	--vv
+	-v -v
 #

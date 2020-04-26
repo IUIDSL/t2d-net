@@ -18,11 +18,10 @@ for ifile in `ls $DATADIR/*.graphml` ; do
 	printf "%d. %s\n" $I $ifile
 	ifile_basename=`basename $ifile |sed -e 's/\..*$//'`
 	#
-	$HOME/utils/slap_utils.py \
-		--graphml2cids \
-		--igraphml $ifile \
+	BioClients.chem2bio2rdf.slap.Utils graphml2cids \
+		--i_graphml $ifile \
 		--o ${DATADIR}/${ifile_basename}_graphml.cid \
-		--v
+		-v
 	#
 done
 #
@@ -32,10 +31,9 @@ cat ${DATADIR}/*_graphml.cid \
 printf "unique cids: %d\n" `cat $CIDFILE |wc -l`
 #
 #
-pug_rest_query.py \
-	--cpds2synonyms \
+python3 -m BioClients.pubchem.Client get_cid2synonyms \
 	--i $CIDFILE \
 	--o $CPDFILE \
-	--v
+	-v
 #
 #

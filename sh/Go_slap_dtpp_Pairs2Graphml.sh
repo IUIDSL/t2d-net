@@ -3,13 +3,8 @@
 ### Go_slap_dtpp_Pairs2Graphml.sh
 ### SLAP mode: Pairwise drug target pair prediction
 ### For specific cpd-tgt pairs, generate network (Graphml) files.
-###
-### Jeremy Yang
-### 12 Feb 2014
 #############################################################################
 PROG=$0
-#
-BASE_URI='http://cheminfov.informatics.indiana.edu/rest/Chem2Bio2RDF/slap'
 #
 IFILE="data/t2dm_dtp_links.csv"
 #
@@ -34,12 +29,11 @@ while [ $I -lt $N ]; do
 	#
 	printf "%d.  CID: %s  TID: %s\n" $I $CID $TID
 	#
-	slap_query.py \
-		--dtp \
-		--cid $CID \
-		--tid $TID \
+	python3 -m BioClients.chem2bio2rdf.slap.Client DTP \
+		--cids $CID \
+		--tids $TID \
 		--odir ${ODIR} \
-		--vv
+		-v -v
 	#
 done
 #

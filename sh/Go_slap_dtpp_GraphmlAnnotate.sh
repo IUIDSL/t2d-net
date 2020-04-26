@@ -3,9 +3,6 @@
 ### Go_slap_dtpp_GraphmlAnnotate.sh
 ### Use names/IDs from input CSV files to annotate SLAP network
 ### (Graphml) files.
-###
-### Jeremy Yang
-### 12 Feb 2014
 #############################################################################
 PROG=$0
 #
@@ -26,24 +23,21 @@ for ifile in `ls $DATADIR/*.graphml` ; do
 	printf "%d. %s\n" $I $ifile
 	ifile_basename=`basename $ifile |sed -e 's/\..*$//'`
 	#
-	$HOME/utils/slap_utils.py \
-		--dtp_annotate_tgts \
-		--icsv_tgts $TGTFILE \
-		--dtp_annotate_cpds \
-		--icsv_cpds $CPDFILE \
-		--igraphml $ifile \
+	python3 -m BioClients.chem2bio2rdf.slap.Utils dtp_annotate \
+		--i_tgts $TGTFILE \
+		--i_cpds $CPDFILE \
+		--i_graphml $ifile \
 		--o ${ODIR}/${ifile_basename}_annotated.graphml \
-		--v
+		-v
 	#
 done
 #
 ### Merge ALL network files to one.
 OFILE_GRAPHML_ALL="slap_dtp_merged.graphml"
 #
-slap_utils.py \
-	--graphmls_merge \
-	--igraphml_dir ${ODIR} \
+python3 -m BioClients.chem2bio2rdf.slap.Utils dtp_annotate graphmls_merge \
+	--i_graphml_dir ${ODIR} \
 	--o ${OFILE_GRAPHML_ALL} \
-	--vv
+	-v -v
 #
 printf "%s: done.\n" $PROG

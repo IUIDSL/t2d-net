@@ -2,20 +2,15 @@
 #
 set -x
 #
-DBH=cheminfov.informatics.indiana.edu
-#DBH=localhost
-DBP=5432
-DBU=cicc3
-DB=chord
-SCHEMA=public
+DBHOST="cheminfov.informatics.indiana.edu"
+DBUSR="cicc3"
+DBNAME="chord"
+DBSCHEMA="public"
 #
-#	--data-only \
-#
-pg_dump \
-	--schema=$SCHEMA \
-	--table=$SCHEMA.c2b2r_biogrid \
-	-v \
-	-h $DBH -p $DBP -U $DBU $DB \
+pg_dump -v \
+	--schema=$DBSCHEMA \
+	--table=$DBSCHEMA.c2b2r_biogrid \
+	-h $DBHOST -U $DBUSR $DBNAME \
 	|gzip -c \
-	> $HOME/Download/c2b2r_biogrid_pgdump.sql.gz
+	> $HOME/Downloads/c2b2r_biogrid_pgdump.sql.gz
 #

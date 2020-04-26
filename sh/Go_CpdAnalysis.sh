@@ -7,11 +7,7 @@
 ### CIDs.
 ###
 ### Input CSV file contains: CID, SIDs, and synonyms.  Synonyms from PubChem
-### (pug_rest_query.py --cpds2synonyms) and should be ordered by
-### human-readability.
-###
-### Jeremy Yang
-###  2 Apr 2014
+### and should be ordered by human-readability.
 #############################################################################
 set -x
 set -e
@@ -24,23 +20,20 @@ NAMEFILE="data/slap_dtp_cpds.name"
 SMINAMEDFILE="data/slap_dtp_cpds_named.smi"
 #
 #
-pug_rest_query.py \
+python3 -m BioClients.pubchem.Client get_cid2smi \
 	--i $CIDFILE \
-	--cids2smi \
 	--o $SMIFILE
 #
 #SDF has properties:
-pug_rest_query.py \
+python3 -m BioClients.pubchem.Client get_cid2sdf \
 	--i $CIDFILE \
-	--cids2sdf \
 	--o $SDFFILE
 #(Slow)
 if [ ! -e $CSVFILE ]; then
-	pug_rest_query.py \
-		--cpds2synonyms \
+	python3 -m BioClients.pubchem.Client get_cid2synonyms \
 		--i $CIDFILE \
 		--o $CSVFILE \
-		--v
+		-v
 else
 	printf "Exists; not overwriting: %s (%d lines)\n" $CSVFILE `cat $CSVFILE |wc -l`
 fi
@@ -105,22 +98,19 @@ setman.py \
 	--AandB \
 	--o $CIDFILE_DRUG
 #
-pug_rest_query.py \
+python3 -m BioClients.pubchem.Client get_cid2smi \
 	--i $CIDFILE_DRUG \
-	--cids2smi \
 	--o $SMIFILE_DRUG
 #
-pug_rest_query.py \
+python3 -m BioClients.pubchem.Client get_cid2sdf \
 	--i $CIDFILE_DRUG \
-	--cids2sdf \
 	--o $SDFFILE_DRUG
 #
 if [ ! -e $CSVFILE_DRUG ]; then
-	pug_rest_query.py \
-		--cpds2synonyms \
+	python3 -m BioClients.pubchem.Client get_cid2synonyms \
 		--i $CIDFILE_DRUG \
 		--o $CSVFILE_DRUG \
-		--v
+		-v
 else
 	printf "Exists; not overwriting: %s (%d lines)\n" $CSVFILE_DRUG `cat $CSVFILE_DRUG |wc -l`
 fi

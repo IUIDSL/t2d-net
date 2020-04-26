@@ -2,20 +2,18 @@
 #
 set -x
 #
-DBH=cheminfov.informatics.indiana.edu
-DBP=5432
-DBU=cicc3
-DB=chord
-SCHEMA=public
+DBHOST="cheminfov.informatics.indiana.edu"
+DBSCHEMA="public"
+DBNAME="chord"
+DBUSR="cicc3"
 #
 #
-$HOME/utils/c2b2r_query.py \
-	--gettargets \
-	--o data/c2b2r_targets.csv \
-	--v
+python3 -m BioClients.chem2bio2rdf.Client gettargets -v \
+	--dbhost $DBHOST --dbschema $DBSCHEMA --dbname $DBNAME --dbusr $DBUSR \
+	--o data/c2b2r_targets.tsv
+
 #
-$HOME/utils/c2b2r_query.py \
-	--getgenes \
-	--o data/c2b2r_genes.csv \
-	--v
+python3 -m BioClients.chem2bio2rdf.Client gettargets getgenes -v \
+	--dbhost $DBHOST --dbschema $DBSCHEMA --dbname $DBNAME --dbusr $DBUSR \
+	--o data/c2b2r_genes.tsv
 #

@@ -2,10 +2,7 @@
 #############################################################################
 ### Go_slap_BatchAnalysis.sh
 ### Analyze results of SLAP drug-target predictions, as generated
-### to CSV file by slap_query.py, SLAP REST API client.
-###
-### Jeremy Yang
-### 12 Feb 2014
+### to CSV file by BioClients.chem2bio2rdf.slap.Client, SLAP REST API client.
 #############################################################################
 PROG=$0
 #

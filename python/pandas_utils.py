@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 ###
-import sys,os,argparse,re,pickle
+import sys,os,argparse,re,pickle,logging
 import pandas
 
 #############################################################################
@@ -13,7 +13,7 @@ def SearchRows(df, cols, coltags, qrys, rels, typs, fout):
     elif coltags:
       if tag not in coltags: continue
       else: jj = coltags.index(tag)
-    #print("DEBUG: tag=%s; j=%d; jj=%d"%(tag,j,jj), file=sys.stderr)
+    logging.debug("tag=%s; j=%d; jj=%d"%(tag,j,jj))
     if qrys[jj].upper() in ('NA','NAN'):
       df = df[df[tag].isna()]
     elif typs[jj]=='int':
@@ -23,13 +23,37 @@ def SearchRows(df, cols, coltags, qrys, rels, typs, fout):
     else:
       df = df[df[tag].astype('str').str.match('^'+qrys[jj]+'$')]
   df.to_csv(fout, '\t', index=False)
-  print("Rows found: %d / %d"%(df.shape[0],n), file=sys.stderr)
+  logging.info("Rows found: %d / %d"%(df.shape[0],n))
+
+#############################################################################
+def SampleRows(df, sample_frac, sample_n, fout):
+  n = df.shape[0]
+  if sample_n:
+    df = df.sample(n=sample_n)
+  else:
+    df = df.sample(frac=sample_frac)
+  df.to_csv(fout, '\t', index=False)
+  logging.info("Rows sampled: %d / %d"%(df.shape[0], n))
+
+#############################################################################
+def RemoveHeader(df, delim, fout):
+  df.to_csv(fout, delim, index=False, header=False)
+
+#############################################################################
+def SetHeader(df, coltags, delim, fout):
+  if not coltags:
+    logging.error("Coltags required.")
+  elif len(coltags)!=df.shape[1]:
+    logging.error("len(coltags) != ncol ({0} != {1}).".format(len(coltags), df.shape[1]))
+  else:
+    df.to_csv(fout, delim, index=False, header=coltags)
 
 #############################################################################
 if __name__=='__main__':
-  parser = argparse.ArgumentParser(
-        description='Pandas utilities for simple datafile transformations.')
-  ops = ['csv2tsv', 'shape', 'summary','showcols','selectcols','uvalcounts','colvalcounts','sortbycols','deduplicate','colstats','searchrows','pickle']
+  parser = argparse.ArgumentParser(description='Pandas utilities for simple datafile transformations.')
+  ops = ['csv2tsv', 'shape', 'summary', 'showcols', 'selectcols', 'uvalcounts',
+	'colvalcounts', 'sortbycols', 'deduplicate', 'colstats', 'searchrows',
+	'pickle', 'sample', 'set_header', 'remove_header']
   compressions=['gzip', 'zip', 'bz2']
   parser.add_argument("op", choices=ops, help='operation')
   parser.add_argument("--i", dest="ifile", help="input (CSV|TSV)")
@@ -45,6 +69,8 @@ if __name__=='__main__':
   parser.add_argument("--disallow_bad_lines", action="store_true", help="default=allow+skip+warn")
   parser.add_argument("--nrows", type=int)
   parser.add_argument("--skiprows", type=int)
+  parser.add_argument("--sample_frac", type=float, default=.01, help="sampling probability (0-1)")
+  parser.add_argument("--sample_n", type=int, help="sampling N")
   parser.add_argument("-v", "--verbose", action="count")
   args = parser.parse_args()
 
@@ -55,10 +81,7 @@ if __name__=='__main__':
   if not args.ifile:
     parser.error('Input file required.')
 
-  if args.ofile:
-    fout = open(args.ofile, "w")
-  else:
-    fout = sys.stdout
+  fout = open(args.ofile, "w") if args.ofile else sys.stdout
 
   if args.compression: compression=args.compression
   elif re.search('\.gz$', args.ifile, re.I): compression='gzip'
@@ -88,14 +111,14 @@ if __name__=='__main__':
 
   if args.op == 'showcols':
     for j,tag in enumerate(df.columns):
-      print('%d. "%s"'%(j+1,tag))
+      fout.write('%d. "%s"\n'%(j+1,tag))
 
   elif args.op == 'shape':
-    print("rows: %d ; cols: %d"%(df.shape[0], df.shape[1]))
+    fout.write("rows: %d ; cols: %d\n"%(df.shape[0], df.shape[1]))
 
   elif args.op == 'summary':
-    print("rows: %d ; cols: %d"%(df.shape[0], df.shape[1]))
-    print("coltags: %s"%(', '.join(['"%s"'%tag for tag in df.columns])))
+    fout.write("rows: %d ; cols: %d\n"%(df.shape[0], df.shape[1]))
+    fout.write("coltags: %s\n"%(', '.join(['"%s"'%tag for tag in df.columns])))
 
   elif args.op=='csv2tsv':
     df.to_csv(fout, '\t', index=False)
@@ -108,36 +131,49 @@ if __name__=='__main__':
     for j,tag in enumerate(df.columns):
       if cols and j not in cols: continue
       if coltags and tag not in coltags: continue
-      print('%d. %s: %d'%(j+1,tag,df[tag].nunique()))
+      logging.info('%d. %s: %d'%(j+1,tag,df[tag].nunique()))
 
   elif args.op == 'colvalcounts':
     for j,tag in enumerate(df.columns):
       if cols and j not in cols: continue
       if coltags and tag not in coltags: continue
-      print('%d. %s:'%(j+1, tag))
+      logging.info('%d. %s:'%(j+1, tag))
       for key,val in df[tag].value_counts().iteritems():
-        print('\t%s: %6d: %s'%(tag, val, key))
+        logging.info('\t%s: %6d: %s'%(tag, val, key))
 
   elif args.op == 'colstats':
     for j,tag in enumerate(df.columns):
       if cols and j not in cols: continue
       if coltags and tag not in coltags: continue
-      print('%d. %s:'%(j+1, tag))
-      print('\tN: %d'%(df[tag].size))
-      print('\tN_isna: %d'%(df[tag].isna().sum()))
-      print('\tmin: %.2f'%(df[tag].min()))
-      print('\tmax: %.2f'%(df[tag].max()))
-      print('\tmean: %.2f'%(df[tag].mean()))
-      print('\tmedian: %.2f'%(df[tag].median()))
-      print('\tstd: %.2f'%(df[tag].std()))
+      fout.write('%d. %s:\n'%(j+1, tag))
+      fout.write('\tN: %d\n'%(df[tag].size))
+      fout.write('\tN_isna: %d\n'%(df[tag].isna().sum()))
+      fout.write('\tmin: %.2f\n'%(df[tag].min()))
+      fout.write('\tmax: %.2f\n'%(df[tag].max()))
+      fout.write('\tmean: %.2f\n'%(df[tag].mean()))
+      fout.write('\tmedian: %.2f\n'%(df[tag].median()))
+      fout.write('\tstd: %.2f\n'%(df[tag].std()))
+
+  elif args.op == 'deduplicate':
+    df.drop_duplicates(inplace=True)
+    df.to_csv(fout, '\t', index=False)
 
   elif args.op == 'searchrows':
     if args.search_qrys is None: 
       parser.error('%s requires --search_qrys.'%args.op)
-    #print("DEBUG: search_qrys=%s"%str(search_qrys), file=sys.stderr)
-    #print("DEBUG: search_rels=%s"%str(search_rels), file=sys.stderr)
-    #print("DEBUG: search_typs=%s"%str(search_typs), file=sys.stderr)
+    logging.debug("search_qrys=%s"%str(search_qrys))
+    logging.debug("search_rels=%s"%str(search_rels))
+    logging.debug("search_typs=%s"%str(search_typs))
     SearchRows(df, cols, coltags, search_qrys, search_rels, search_typs, fout)
+
+  elif args.op == 'sample':
+    SampleRows(df, args.sample_frac, args.sample_n, fout)
+
+  elif args.op == 'set_header':
+    SetHeader(df, coltags, delim, fout)
+
+  elif args.op == 'remove_header':
+    RemoveHeader(df, delim, fout)
 
   elif args.op == 'pickle':
     if not args.ofile:

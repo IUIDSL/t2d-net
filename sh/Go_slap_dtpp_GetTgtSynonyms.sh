@@ -16,11 +16,10 @@ for ifile in `ls $DATADIR/*.graphml` ; do
 	printf "%d. %s\n" $I $ifile
 	ifile_basename=`basename $ifile |sed -e 's/\..*$//'`
 	#
-	$HOME/utils/slap_utils.py \
-		--graphml2tids \
-		--igraphml $ifile \
+	python3 -m BioClients.chem2bio2rdf.slap.Utils graphml2tids \
+		--i_graphml $ifile \
 		--o ${DATADIR}/${ifile_basename}_graphml.tid \
-		--v
+		-v
 	#
 done
 #

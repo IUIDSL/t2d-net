@@ -1,10 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 #############################################################################
 ### Go_drug_Lookup.sh - Learn about drugs via online APIs, from names, 
 ### PubChem CIDs, or other IDs.
-### 
-### Jeremy Yang
-###  8 Jul 2014
 #############################################################################
 
 ### Smifile format "SMI NAME CID"
@@ -24,9 +21,11 @@ while [ $i -lt $N ]; do
 		break
 	fi
 	#
-	rxnorm_query.py --v --name "$name" --name2rxcuis --get_classes_atc
-	rxnorm_query.py --v --name "$name" --name2rxcuis --get_classes_mesh
-	rxnorm_query.py --v --name "$name" --name2rxcuis --get_classes_ndfrt --ndfrt_type MOA
-	rxnorm_query.py --v --name "$name" --name2rxcuis --get_classes_ndfrt --ndfrt_type PE
+	rxcui=$(python3 -m BioClients.rxnorm.Client get_name2rxcui --ids "$name"|sed -e '1d' |awk -F '\t' '{print $2}')
+	printf "NAME:\"%s\" -> RxCUI:%s\n" "${name}" "${rxcui}"
+	python3 -m BioClients.rxnorm.Client get_classes_atc --ids "$rxcui"
+	python3 -m BioClients.rxnorm.Client get_classes_mesh --ids "$rxcui"
+	python3 -m BioClients.rxnorm.Client get_classes_ndfrt --ndfrt_type MOA --ids "$rxcui"
+	python3 -m BioClients.rxnorm.Client get_classes_ndfrt --ndfrt_type PE --ids "$rxcui"
 	#
 done
